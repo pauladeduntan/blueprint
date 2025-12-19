@@ -1,1 +1,3 @@
-# blueprint
+KinCart is a mobile-first household coordination system designed to reduce mental load and preserve emotional safety in shared living, caregiving, and event-planning contexts. It is not a task manager, shopping list, or financial tool. KinCart focuses on making shared intent visible without enforcement, reminders, or judgement.
+
+This repository contains the authoritative product blueprint that defines KinCart’s intent, system model, scope boundaries, behavioural rules, and evolution path. It prioritises correctness, clarity, and behavioural integrity over feature velocity or market positioning.
