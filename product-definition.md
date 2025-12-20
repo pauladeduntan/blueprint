@@ -1,5 +1,19 @@
-## Product Definition
+# Product Definition
 
-KinCart is a mobile-first household coordination platform designed to reduce mental load in shared living, caregiving, and event-planning contexts. KinCart is not a task manager, shopping list app, or project tool.
+KinCart is a household coordination platform that makes shared intent visible without turning people into managers of each other.
 
-Its core value lies in making shared responsibility visible, time-bound, and emotionally safe. KinCart sits between traditional list apps and household finance tools. Where list apps focus on items and finance tools focus on money, KinCart focuses on coordination, making shared intent visible without enforcement or accounting.
+## Checksum (LOCKED)
+Making every day lighter, together.
+
+## What KinCart is
+- A calm shared space for household lists and progress visibility.
+- A coordination layer that reduces surprises and emotional friction.
+- A system where language avoids blame, urgency, or enforcement.
+
+## What KinCart is not (LOCKED)
+- Not a task manager.
+- Not an accounting or settlement system.
+- Not a behavioural enforcement tool.
+
+## MVP Outcome
+Users can see what is happening in their household list, contribute safely, and feel confident nothing “disappeared” silently.
