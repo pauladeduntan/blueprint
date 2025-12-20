@@ -1,30 +1,23 @@
-## Domain Language (MVP)
+# Domain Language (LOCKED)
 
-The following terms have specific, non-negotiable meanings in KinCart.
+## Core nouns
+- Household: a shared context boundary.
+- Member: a person inside a household.
+- Shared Cart (Default Cart): the single household list in MVP.
+- Item: a line in the cart.
+- Activity: an immutable log of actions (read-only feed).
 
-• Household  
-A bounded coordination context. All data is strictly household-scoped. No entity crosses household boundaries.
+## Core verbs
+- Add item: place an item into the shared cart.
+- Complete item: hide item from active list (system-owned, reversible by re-adding).
+- Switch household: change active context explicitly.
 
-• Member  
-A user within a household. Users may belong to multiple households but only one is active at a time.
+## Tone rules (LOCKED)
+- Use “completed” not “deleted”.
+- Avoid “assigned”, “overdue”, “reminder”, “failed”, “should”.
+- No judgement language; visibility without evaluation.
 
-• Cart  
-A coordination container for shared intent. In MVP, each household has a single system-owned default cart.
-
-• Default Household Cart  
-A system-owned, always-on cart created automatically for each household. It is non-deletable in MVP and serves as the baseline coordination surface.
-
-• Item  
-An expression of shared intent within a cart. Items may be added, completed, or acknowledged.
-
-• Completion  
-A system-recorded state change where an item is marked as handled. Completion is visible but non-evaluative.
-
-• Activity  
-An immutable, neutral record of what occurred. Activity provides history, not obligation.
-
-• Updates  
-A filtered, decaying awareness surface designed to reduce noise and mental load.
-
-• Event Cart  
-A time-bound coordination container. Event Cart 1.0 is explicitly post-MVP and illustrative only.
+## UI labels (MVP)
+- “Shared Cart” (preferred) or household-named cart title.
+- “Activity” for the log.
+- “Continue as guest” for primary entry.
