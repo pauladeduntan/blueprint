@@ -1,25 +1,23 @@
-## Invariants (LOCKED)
+# Invariants (LOCKED)
 
-These rules are non-negotiable. Any change requires explicit founder approval.
+These are non-negotiable. If a feature violates an invariant, it does not ship.
 
-• Emotional safety over optimization  
-• Visibility over reminders  
-• Coordination over control  
-• System absorbs judgement, not people  
-• Sequence complexity; do not front-load it  
-• Clean endings matter  
+## Product invariants
+1. Emotional safety over optimisation.
+2. Visibility over reminders.
+3. Shared intent visible; no contribution scoring, fairness evaluation, or per-person judgement.
+4. Reversibility: actions should not trap users or force commitment.
+5. System-owned language: the UI must not blame or police.
 
-### Explicit Non-Goals
+## MVP scope invariants
+1. Single default household cart (one shared list per household in MVP).
+2. No Event Cart UI in MVP; event flows are post-MVP illustrative only.
+3. No push notifications, reminders, or urgency mechanics in MVP.
+4. No settlements, reimbursements, or per-person totals (cost awareness = reduce surprises only).
+5. Guest-first entry is primary; auth is optional and framed as “save progress”.
 
-KinCart will not become:
-• A task manager  
-• An accountability or enforcement system  
-• A productivity optimiser  
-• A financial accounting or settlement tool  
-• A reminder-first or notification-driven app  
-
-### Product Checksum
-
-“Making every day lighter, together.”
-
-Any feature, interaction, or system behaviour that increases cognitive, emotional, or social load fails the checksum and must not ship.
+## Data invariants
+1. Server-owned canonical keys for item dedupe.
+2. Membership checks on every privileged RPC.
+3. Activity is append-only.
+4. Soft state (visibility flags) instead of destructive deletes for user-facing objects.
