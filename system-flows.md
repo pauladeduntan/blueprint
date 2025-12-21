@@ -29,3 +29,5 @@
 1. User taps “Switch household”.
 2. App changes context explicitly.
 3. New context becomes current and persists as last viewed.
+
+See: [/flows/mvp-user-journey.pdf](./flows/mvp-user-journey.pdf)
