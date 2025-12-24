@@ -19,5 +19,7 @@ These are non-negotiable. If a feature violates an invariant, it does not ship.
 ## Data invariants
 1. Server-owned canonical keys for item dedupe.
 2. Membership checks on every privileged RPC.
-3. Activity is append-only.
+3. Activity is append-only (no user edits). Identity display is system-owned and may be anonymised for inactive/removed members.
 4. Soft state (visibility flags) instead of destructive deletes for user-facing objects.
+5. Data ownership is household-scoped: shared objects exist within a household boundary; access is granted only by active membership.
+6. Exit safety: when a member leaves (or is removed), access is revoked immediately. Past actions may remain in Activity, but identity must not be permanently exposed by default (system-owned “Member/Former member” labels).
