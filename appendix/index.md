@@ -1,5 +1,10 @@
-# Appendix Index
+# Appendix index
 
-- Screen Responsibility Contracts: which screen owns which responsibilities.
-- Stress Tests: known failure modes and expected behaviours.
-- Schema Lock Pack: one-page non-negotiables for database lock.
+Public-safe supporting notes for the KinCart research artefact.
+
+- governance-links.md
+- boundary-integrity-notes.md
+- screen-responsibility-contracts.md
+- failure-mode-tests.md
+- research-contribution.md
+- writing-sample-summary.md
