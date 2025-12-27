@@ -1,0 +1,2 @@
+date_utc,session_type,participant_id,household_role_context,consent_obtained,artifact_used,version_tag,outcome_measures,summary_notes_deidentified,followup_needed
+2026-01-15,prototype_walkthrough,P001,partner,yes,Figma walkthrough,figma_v1,pressure_1to5|clarity_1to5|trust_1to5,"Felt calmer with 'Save progress'; disliked blamey wording in alt phrasing.",no
