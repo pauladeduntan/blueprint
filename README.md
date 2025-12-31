@@ -2,6 +2,18 @@
 
 KinCart is a mobile-first household coordination system designed to reduce mental load and preserve emotional safety through shared visibility, calm defaults, and system-owned language. It is not a task manager, accounting tool, or enforcement mechanism.
 
+## Governance (binding decisions live here)
+
+Binding decisions and drift-prevention gates are recorded in the **governance** repository:
+
+- Governance repo: https://github.com/pauladeduntan/governance
+- Decision register: https://github.com/pauladeduntan/governance/blob/main/decision-register.md
+- Decision records: https://github.com/pauladeduntan/governance/tree/main/decisions
+- Action gates: https://github.com/pauladeduntan/governance/tree/main/action-gates
+
+This blueprint repository contains the frozen product constraints (domain language, invariants, flows).
+When something here becomes **committed truth**, it should be backed by a governance decision record.
+
 ## Status (research-only)
 
 KinCart is a **non-commercial research artefact**. This repository documents research framing, design invariants, and prototype evidence. It is **not** a product launch, a service offering, or a commercial operation.
