@@ -8,3 +8,5 @@ Public-safe supporting notes for the KinCart research artefact.
 - failure-mode-tests.md
 - research-contribution.md
 - writing-sample-summary.md
+## Research
+- [Research contribution](./research-contribution.md)
