@@ -4,6 +4,11 @@ KinCart is a mobile-first household coordination system designed to reduce menta
 
 ## Governance (binding decisions live here)
 
+This repository is governed by the KinCart governance repo:
+- Decisions become truth only when committed in governance.
+- Blueprint changes should link back to the governing decision record.
+- Public artefacts avoid implementation recipes by design.
+
 Binding decisions and drift-prevention gates are recorded in the **governance** repository:
 
 - Governance repo: https://github.com/pauladeduntan/governance
