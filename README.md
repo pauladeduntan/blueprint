@@ -16,6 +16,9 @@ Binding decisions and drift-prevention gates are recorded in the **governance** 
 - Decision records: https://github.com/pauladeduntan/governance/tree/main/decisions
 - Action gates: https://github.com/pauladeduntan/governance/tree/main/action-gates
 
+## For supervisors/reviewers
+- [Research contribution (1 page)](./appendix/research-contribution.md)
+
 This blueprint repository contains the frozen product constraints (domain language, invariants, flows).
 When something here becomes **committed truth**, it should be backed by a governance decision record.
 
