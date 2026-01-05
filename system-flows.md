@@ -20,10 +20,35 @@
 4. Completing item hides it from active list (non-destructive).
 5. Re-adding a completed item restores it (reversible).
 
-## Flow 4: Activity
-1. Every add/complete/uncomplete writes an activity entry.
-2. Activity is immutable and read-only.
-3. No urgency, no reminders, no ranking in MVP.
+## Flow 4: Activity(LOCKED)
+
+Owns: a calm, read-only feed of household list actions.
+Must not: become a notification centre, audit log, or judgement feed.
+
+### Included events (LOCKED)
+- Member added “Item”
+- Member completed “Item”
+- Member hid “Item”
+- Member showed “Item” again
+
+Optional: a single `Handoff` chip may appear on events involving a handoff item.
+
+### Excluded events (LOCKED)
+- No hearts events
+- No heart counts
+- No `For: <name>` chips in the Activity feed by default
+- No handoff type chips in the Activity feed by default
+- No “Household name updated”
+- No “Household members updated”
+
+### Activity → Activity context sheet (Handoff) (LOCKED)
+When an Activity entry involves a handoff item:
+- The feed stays minimal (event line + optional `Handoff` chip only).
+- Tapping the row opens a read-only bottom sheet titled `Activity context` showing:
+  - Item name
+  - Chips: `Handoff`, `For: <name>`, `<type>` (Pickup/Appointment/Visit/Other)
+- Exit safety: if the “For” person is not active, display `Former member` (system-owned).
+- The sheet contains no edit actions.
 
 ## Flow 5: Multi-household context switch
 1. User taps “Switch household”.
