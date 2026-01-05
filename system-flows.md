@@ -52,7 +52,9 @@ When an Activity entry involves a handoff item:
 
 ## Flow 5: Multi-household context switch
 1. User taps “Switch household”.
-2. App changes context explicitly.
-3. New context becomes current and persists as last viewed.
+2. App changes context explicitly (global).
+3. The active Household name updates everywhere the header is shown.
+4. Shared Cart and Activity immediately re-scope to the newly selected Household.
+5. New context becomes current and persists as last viewed.
 
-See: [/flows/mvp-user-journey.pdf](./KinCart_User-Journey_Public_v1.pdf)
+See: [Flow artefacts](./flow/)
