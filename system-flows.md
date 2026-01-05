@@ -55,4 +55,4 @@ When an Activity entry involves a handoff item:
 2. App changes context explicitly.
 3. New context becomes current and persists as last viewed.
 
-See: [/flows/mvp-user-journey.pdf](./flows/mvp-user-journey.pdf)
+See: [/flows/mvp-user-journey.pdf](./KinCart_User-Journey_Public_v1.pdf)
