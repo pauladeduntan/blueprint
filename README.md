@@ -30,7 +30,7 @@ KinCart is a **non-commercial research artefact**. This repository documents res
 
 **Future pathway (hypothetical only):** Any future commercialization would require explicit conditions (institutional approval, legal/immigration compliance, ethics posture, and funding). Until those conditions are met, KinCart remains **research-only**.
 
-**Start here:** `START_HERE.md`
+**Start here:** `[START_HERE.md](https://github.com/pauladeduntan/blueprint/blob/main/START_HERE.md)`
 
 ## What this repository contains
 - A frozen research blueprint: domain language, invariants, and narrative system flows.
