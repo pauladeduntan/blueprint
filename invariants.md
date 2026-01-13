@@ -1,25 +1,34 @@
-# Invariants (LOCKED)
+# Invariants (Locked)
 
-These are non-negotiable. If a proposed feature violates an invariant, it is not introduced into the research artefact.
+These are non-negotiable. If a proposed change violates an invariant, it is not introduced into the research artefact.
 
-## Research artefact invariants
+## Research Artefact Invariants
+
 1. Emotional safety over optimisation.
 2. Visibility over reminders.
 3. Shared intent visible; no contribution scoring, fairness evaluation, or per-person judgement.
-4. Reversibility: actions should not trap users or force commitment.
-5. System-owned language: the UI must not blame or police.
+4. Reversibility: actions must not trap Members or force commitment.
+5. System-owned language: the UI must not blame, police, or imply obligation.
 
-## Current prototype scope invariants
-1. Single default household cart (one shared list per household in the current research prototype).
-2. No Event Cart UI in current research prototype; event flows are illustrative only and excluded from the current research prototype.
-3. No push notifications, reminders, or urgency mechanics in current research prototype.
-4. No settlements, reimbursements, or per-person totals (cost awareness = reduce surprises only).
-5. Guest-first entry is primary; auth is optional and framed as “save progress”.
+## High-Stakes Invariants (Handoff Item)
 
-## Data invariants
-1. System-owned canonical identifiers for item deduplication.
-2. Membership checks on every privileged RPC.
-3. Activity is append-only (no user edits). Identity display is system-owned and may be anonymised for inactive/removed members.
-4. Soft state (visibility flags) instead of destructive deletes for user-facing objects.
-5. Data ownership is household-scoped: shared objects exist within a household boundary; access is granted only by active membership.
-6. Exit safety: when a member leaves (or is removed), access is revoked immediately. Past actions may remain in Activity, but identity must not be permanently exposed by default (system-owned “Member/Former member” labels).
+1. Handoff Items are treated as High-Stakes coordination surfaces designed to reveal breakdown and repair dynamics, not to enforce compliance.
+2. No reminders, nudges, urgency cues, or escalation mechanics, even for High-Stakes Handoff Items.
+3. No blame-attribution defaults: identity display remains system-owned to prevent surveillance interpretations during conflict-prone moments.
+4. Reversible outcomes by default: mistakes must be recoverable without requiring permission, justification, or confrontation.
+
+## Current Research Prototype Scope Invariants
+
+1. Single default Shared Cart per Household (one shared list per Household in the current research prototype).
+2. No separate event-specific cart surface in the current research prototype; event examples are illustrative only and excluded from the prototype.
+3. No push notifications, reminders, or urgency mechanics in the current research prototype.
+4. No settlements, reimbursements, or per-person totals. Any cost awareness is limited to reducing surprises and does not introduce tracking or enforcement.
+5. Guest-first entry is primary; sign-in is optional and framed as “Save Progress”.
+
+## Data and Governance Invariants (Conceptual)
+
+1. Shared objects are Household-scoped: access is granted only by active membership within a Household boundary.
+2. Activity is append-only: actions become visible records and are not user-editable.
+3. System-owned identity display: identity may be reduced (for example “Member” / “Former Member”) to avoid permanent exposure by default.
+4. Non-destructive user-facing state: use visibility states rather than destructive deletion for user-facing objects.
+5. Exit safety: when a Member leaves (or is removed), access ends immediately; past actions may remain visible, but identity is not permanently exposed by default.
