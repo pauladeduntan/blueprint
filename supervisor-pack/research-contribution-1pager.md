@@ -1,7 +1,7 @@
 # Research contribution — KinCart
 
 ## Working title
-Shared-intent coordination in households: visibility without enforcement or emotional pressure
+Shared-intent coordination in households: making visibility safe without enforcement
 
 ## Problem
 In shared households, coordination tools can reduce ambiguity but increase emotional load by introducing accountability cues (nudges, reminders, “overdue” states, performance-like feeds). These cues can shift coordination from “shared intent” to perceived management, increasing friction and risking trust breakdown.
@@ -17,7 +17,7 @@ KinCart investigates a constraint-first alternative: **make shared intent visibl
    - System-owned language (no blame or policing)
 2) **Domain language as a safety mechanism** that prevents scorekeeping drift (e.g., “shared intent visible”, “completed”, “save progress”, “former member”).
 3) **Failure-aware interaction contracts** that surface high-risk breakdowns explicitly (e.g., wrong-household actions; identity exposure after leaving/removal).
-4) **Governance as method**: decision hygiene + anti-drift gates that keep public artefacts consistent while avoiding implementation recipes.
+4) **Decision discipline as method: explicit decision records and anti-drift gates that keep public artefacts consistent while avoiding implementation recipes.
 
 ## What exists today (evidence)
 - High-fidelity prototype demonstrating key interaction contracts (explicit household switching; reversible completion; readable Activity).
@@ -30,11 +30,11 @@ KinCart investigates a constraint-first alternative: **make shared intent visibl
 
 ## Methods
 - Diary + interviews with households to capture lived breakdowns and emotional load.
-- Prototype-based comparative evaluation (constraint-first KinCart patterns vs conventional coordination patterns).
+- Prototype-based interpretive comparison (constraint-first KinCart patterns discussed alongside familiar coordination patterns).
 - Optional lightweight interaction logging (ethics-approved, privacy-first, no scoring).
 
 ## Fit
-ACM CSCW/CHI/UbiComp communities focused on domestic computing, CSCW, values-aware design, and safety-aware interaction.
+HCI and CSCW communities focused on domestic computing, shared-access systems, values-aware design, and safety-aware interaction.
 
 ## Ethics/positioning
 KinCart is a **non-commercial research artefact**. The work is designed to avoid judgment and enforcement cues and to reduce interpersonal harm risk in household settings.
