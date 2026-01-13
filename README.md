@@ -4,9 +4,9 @@ KinCart is a **research-led coordination artefact** for studying how shared inte
 
 The artefact is intentionally designed around explicit interaction invariants (e.g., system-owned language, reversibility by default, boundary clarity) so that breakdown, repair, and interpretation can be studied as coordination work rather than optimised task execution.
 
-## Governance (binding decisions live here)
+## Research Governance (binding decisions live here)
 
-Governance in KinCart functions as a **research control mechanism**, not an organisational or engineering process. Decisions are recorded to prevent interpretive drift (e.g., accidental introduction of enforcement or judgement cues) and to preserve invariant integrity across iterations of the research artefact.
+Research governance in KinCart functions as a methodological control mechanism, not an organisational or engineering process. Decisions are recorded to prevent interpretive drift (e.g., accidental introduction of enforcement or judgement cues) and to preserve invariant integrity across iterations of the research artefact during study.
 
 This repository is governed by the KinCart governance repo:
 - Decisions become truth only when committed in governance.
@@ -23,7 +23,7 @@ Binding decisions and drift-prevention gates are recorded in the **governance** 
 ## For supervisors/reviewers
 - [Research contribution (1 page)](./appendix/research-contribution.md)
 
-This blueprint repository contains the frozen product constraints (domain language, invariants, flows).
+This blueprint repository contains the frozen research artefact constraints (domain language, invariants, and narrative system flows).
 When something here becomes **committed truth**, it should be backed by a governance decision record.
 
 ## Status (research-only)
@@ -32,7 +32,7 @@ KinCart is a **non-commercial research artefact**. This repository documents res
 
 **Mechanics policy:** Implementation details that would enable cloning (schemas/RLS/RPC specifics, deploy steps, paste-ready backend scripts) are intentionally **not** published in public.
 
-Any use of KinCart beyond its role as a research artefact would require separate institutional review and ethical approval. Until such conditions exist, KinCart is treated exclusively as a research probe and documented accordingly.
+Any use of KinCart beyond its role as a research artefact would require separate ethical review under the relevant institutional framework. Until such conditions exist, KinCart is treated exclusively as a research probe and documented accordingly.
 
 **Start here:** [START_HERE.md](https://github.com/pauladeduntan/blueprint/blob/main/START_HERE.md)
 
