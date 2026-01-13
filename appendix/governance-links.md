@@ -1,47 +1,61 @@
+# Governance Links (Cross-Repo Map)
 
-# Governance links (cross-repo map)
-This appendix connects the **blueprint** (what KinCart is) to **governance** (what is committed and enforced).
+This appendix connects the **Blueprint** (what KinCart is and must remain) to **Governance** (what is committed and how drift is prevented).
 
-## Governance (source of binding decisions)
-- Governance repo: https://github.com/pauladeduntan/governance
-- Decision register: https://github.com/pauladeduntan/governance/blob/main/decision-register.md
-- Decision records: https://github.com/pauladeduntan/governance/tree/main/decisions
-- Action gates: https://github.com/pauladeduntan/governance/tree/main/action-gates
-- Auth/RLS/RPC contract (conceptual): https://github.com/pauladeduntan/governance/blob/main/auth-rls-rpc-contract.md
+## Governance (Source Of Binding Decisions)
 
-## Blueprint artefacts governed
-- Product definition: ../product-definition.md
-- Domain language (LOCKED): ../domain-language.md
-- Invariants (LOCKED): ../invariants.md
-- System flows: ../system-flows.md
-- Screen responsibility contracts: ./screen-responsibility-contracts.md
-- Stress tests: ./stress-tests.md
+- Governance Repo: https://github.com/pauladeduntan/governance
+- Decision Register: https://github.com/pauladeduntan/governance/blob/main/decision-register.md
+- Decision Records: https://github.com/pauladeduntan/governance/tree/main/decisions
+- Action Gates: https://github.com/pauladeduntan/governance/tree/main/action-gates
+- Decision Hygiene: https://github.com/pauladeduntan/governance/blob/main/decision-hygiene.md
 
-## Decision → Blueprint impact (public-safe pointers)
-- D001 Project framing → product-definition.md (research framing)
-- D002 Product checksum + invariants → invariants.md, domain-language.md
-- D003 MVP boundary and exclusions → product-definition.md, system-flows.md
-- D004 Data ownership + research use boundary → invariants.md, product-definition.md
-- D005 Data ownership + exit safety → invariants.md, screen-responsibility-contracts.md
-- D006 Activity privacy veil → domain-language.md, screen-responsibility-contracts.md
+## Blueprint Artefacts Governed
 
-# Governance Links (Enforceable)
-This appendix makes KinCart’s governance **enforceable**, not optional. The blueprint defines *what* we are building; the governance repo defines *how* we prevent drift while building.
+- Product Definition: ../product-definition.md
+- Domain Language (Locked): ../domain-language.md
+- Invariants (Locked): ../invariants.md
+- System Flows: ../system-flows.md
+- Screen Responsibility Contracts: ./screen-responsibility-contracts.md
+- Failure-Mode Tests: ./failure-mode-tests.md
 
-## Source of truth
-- **Blueprint repo**: product intent, domain language, invariants, system flows.
-- **Governance repo**: build rules, decision discipline, and the auth/RLS/RPC contract.
+## Status Semantics (Public-Safe)
+
+- Accepted: binding.
+- Archived: filed for historical traceability; binding status is determined by whether the decision is explicitly superseded by a later decision record.
+- Superseded: no longer binding; replaced by a later decision record.
+
+## Decision → Blueprint Impact (Public-Safe Pointers)
+
+### Archived Decisions (Historical Context; Binding Status Defined in Decision Register)
+
+- D001 Project Framing → ../product-definition.md
+- D002 Product Checksum and Invariants → ../invariants.md, ../domain-language.md
+- D003 Scope Boundary and Exclusions → ../product-definition.md, ../system-flows.md
+- D004 Data Ownership and Research Posture → ../invariants.md, ../product-definition.md
+- D005 Data Ownership and Exit Safety → ../invariants.md, ./screen-responsibility-contracts.md
+- D006 Activity Privacy Veil → ../domain-language.md, ./screen-responsibility-contracts.md
+- D007 Activity Context Sheet → ../system-flows.md, ./screen-responsibility-contracts.md
+
+### Accepted Decisions (Currently Binding)
+
+- D008 Hearts are Item-Scoped (Not a Feed Mechanic) → ../domain-language.md, ../system-flows.md, ./screen-responsibility-contracts.md
+- D009 Activity Detail Sheets are Optional, Neutral Context → ../system-flows.md, ./screen-responsibility-contracts.md
+- D010 Handoff Tag with Anti-policing Guardrails → ../invariants.md, ../system-flows.md, ../domain-language.md, ./screen-responsibility-contracts.md
+- D011 Replace Remove/Delete with Hide Item (Reversible) → ../domain-language.md, ../invariants.md, ../system-flows.md
+- D012 Remove Hearts from Main List Row → ./screen-responsibility-contracts.md, ../system-flows.md
+- D013 Auth Framed as Save Progress; Guest is First-class → ../domain-language.md, ../system-flows.md, ../product-definition.md
+- D014 Item Details Accessible from Activity → ../system-flows.md, ./screen-responsibility-contracts.md
+- D015 Placeholder and Microcopy Rules are Consistent → ../domain-language.md, ./screen-responsibility-contracts.md, ../product-definition.md
+
+## Change Gate Summary (Enforceable in Spirit, Public-Safe I
+in Detail)
 
 If a suggestion conflicts with an invariant, the invariant wins.  
-If an implementation shortcut increases emotional risk, reject it.
+If a shortcut increases emotional risk or pressure cues, reject it.
 
-## Build enforcement
-Before any implementation step (schema, RLS, RPC, FlutterFlow):
-1) Run the **3-question filter** (Decision Hygiene).
-2) Confirm the step does not violate the **Auth + RLS + RPC Contract**.
-3) Ensure the change is tied to a committed decision (Decision Register entry or decision doc).
+Before any change is accepted:
 
-## Links (authoritative)
-- Decision Hygiene: https://github.com/pauladeduntan/governance/blob/main/decision-hygiene.md
-- Auth + RLS + RPC Contract: https://github.com/pauladeduntan/governance/blob/main/auth-rls-rpc-contract.md
-- Decision Register: https://github.com/pauladeduntan/governance/blob/main/decision-register.md
+1) Run the Decision Hygiene filter.
+2) Confirm the change preserves boundary integrity, exit safety, and system-owned language.
+3) Tie the change to a committed decision (Decision Register entry or Decision Record).
