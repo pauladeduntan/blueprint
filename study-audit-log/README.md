@@ -1,15 +1,22 @@
-# Study audit log (research-only)
+# Study Audit Log (Research-Only)
 
-This folder contains a de-identified template for tracking research activities (walkthroughs, interviews, vignette tests, diary check-ins).
+This folder contains a de-identified template for tracking research activities (interpretive walkthrough interviews, interviews, vignette sessions, and diary check-ins).
 
-## Privacy rules (non-negotiable)
-- Do not store names, emails, phone numbers, addresses, school names, or identifiable notes.
-- Use participant IDs only (e.g., P001).
-- Store any consent forms and personal contact details outside this public repository.
+## Privacy Rules (Non-Negotiable)
 
-## What this log is for
-- Traceability: when a session happened, what artefact version was used, what outcome measures were collected.
-- Research rigor: a simple audit trail suitable for supervisor review.
+- Do not store names, emails, phone numbers, addresses, workplace or school names, or any directly identifying notes.
+- Use participant IDs only (for example, P001).
+- Do not store consent forms, contact details, raw recordings, or raw transcripts in this public repository.
+- Avoid including unique incidents or verbatim quotes that could re-identify a participant.
+- Store any identifiable materials outside this public repository under appropriate access controls.
 
-## What this log is NOT
+## What this Log is for
+
+- Traceability: when a session happened, what artefact version was used, and what research prompts or materials were used.
+- Research rigor: a minimal, de-identified record suitable for supervisor review and methodological transparency.
+- Interpretive analysis support: a guide to what was discussed without scoring, ranking, or evaluating participants.
+
+## What this Log is not
+
 - A growth dashboard, retention tracker, or commercialization metric sheet.
+- A performance record about participants or household dynamics.
