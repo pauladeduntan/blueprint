@@ -1,6 +1,6 @@
-# Product Definition
+# Artefact Definition
 
-KinCart is a household coordination platform that makes shared intent visible without turning people into managers of each other.
+KinCart is a household coordination research artefact that makes shared intent visible without turning people into managers of each other.
 
 ## Checksum (LOCKED)
 Making every day lighter, together.
@@ -15,5 +15,5 @@ Making every day lighter, together.
 - Not an accounting or settlement system.
 - Not a behavioural enforcement tool.
 
-## MVP Outcome
-Users can see what is happening in their household list, contribute safely, and feel confident nothing “disappeared” silently.
+## Study outcome (current prototype)
+Participants can see what is happening in their household list, contribute safely, and trust that actions are visible and reversible rather than silently disappearing.
