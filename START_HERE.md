@@ -1,29 +1,32 @@
-# START HERE
+# Start Here
 
-KinCart is a non-commercial research artefact used to study how household coordination can reduce mental load while preserving emotional safety.
+KinCart is a non-commercial research artefact used to study how household coordination can make every day lighter, together. It focuses on reducing mental load while preserving emotional safety.
 
-## Fast path (5 minutes)
+## Fast Path
+
 1) **Research artefact (used in study)**
    - Figma prototype (used in interpretive walkthrough interviews): <[FIGMA_LINK](https://www.figma.com/proto/0BKLn5A6LTL217Wn1Vtk1u/KinCart-Hi-fi-Mock-up-Screens?node-id=484-6085&t=1YxIJJ2rhqY7Rphx-1)>
-   - Short walkthrough video (2–3 min, unlisted): [link shared on request] <PASTE_VIDEO_LINK>
+   - Short walkthrough video (2–3 min, unlisted): Available on request
 
 2) **Research contribution (1 page)**
    - See: `appendix/research-contribution.md`
 
 3) **Core constraints (what must remain true)**
-   - Domain language: `domain-language.md`
-   - Invariants: `invariants.md`
+   - Domain language (locked): `domain-language.md`
+   - Invariants (locked): `invariants.md`
 
 4) **Interaction narrative (what is being studied)**
-   - `system-flows.md`
+   - `system-flows.md` describes user-facing behavior and failure modes. It includes **Handoff item** as a **high-stakes** coordination stress surface used to study breakdown, repair, trust, and emotional safety.
 
-## What this repo contains
-- Frozen domain language + invariants that constrain design choices.
-- Narrative system flows that describe user-facing behavior and failure modes.
-- - A small appendix of research notes curated for public review (no implementation recipes).
+## What this Repo Contains
 
-## What is intentionally NOT published
+- Locked domain language and invariants that constrain design choices.
+- Narrative system flows describing user-facing behavior and failure modes.
+- A small appendix of research notes curated for public review (no implementation recipes).
+
+## What is Intentionally Not Published
+
 - Implementation mechanics (schema/RLS/RPC specifics, operational scripts, deploy steps).
-- Any “copy/paste” backend recipes.
+- Any copy/paste backend recipes or build instructions.
 
-These details are intentionally excluded from the public record to preserve the artefact’s role as a research probe rather than a build recipe.
+These details are intentionally excluded to preserve KinCart’s role as a research probe rather than a build guide.
