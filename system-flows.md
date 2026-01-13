@@ -1,60 +1,74 @@
-# System Flows (current research prototype)
+# System Flows (Current Research Prototype)
 
 ## Flow 1: Entry (Guest-first)
+
 1. User opens app → Entry screen.
-2. Primary: Continue as guest → anonymous auth → proceed.
-3. Secondary: Sign in/sign up → authenticated → proceed.
-4. Auth is framed as “Save your progress”, not access control.
+2. Primary: Continue As Guest → proceed in a guest session.
+3. Secondary: Sign in / Sign up → proceed in an authenticated session.
+4. Sign-in is framed as “Save Progress”, not access control.
 
 ## Flow 2: Household Gate
-1. On entry, app loads households for current user.
-2. If none exist → auto-create first household + shared cart + membership.
-3. If one exists → auto-select.
-4. If multiple exist → show explicit household switcher.
-5. Active household is always visible (context clarity).
 
-## Flow 3: Shared Cart loop
-1. User opens shared cart.
-2. Adds item (raw text) → system applies canonical naming to prevent duplicates.
-3. If duplicate exists → user sees “already in the cart”.
-4. Completing an item (or using Hide item) hides it from the active list (non-destructive).
-5. Re-adding a completed item restores it (reversible).
+1. On entry, the app loads Households available to the current session.
+2. If none exist → create a first Household with a Shared Cart.
+3. If one exists → auto-select it.
+4. If multiple exist → show an explicit Switch Household control.
+5. The active Household is always visible (context clarity).
 
-## Flow 4: Activity(LOCKED)
+## Flow 3: Shared Cart Loop
 
-Owns: a calm, read-only feed of household list actions.
-Must not: become a notification centre, audit log, or judgement feed.
+1. Member opens Shared Cart.
+2. Member adds an Item (free text) → the system normalizes entries to reduce accidental duplicates.
+3. If the Item already exists → show a neutral confirmation (for example, “Already In Shared Cart”).
+4. Complete Item hides the Item from the active list (non-destructive).
+5. Hide Item hides the Item from the active list (non-destructive) without implying removal or fault.
+6. Show Again restores visibility (reversible).
 
-### Included events (LOCKED)
-- Member added “Item”
-- Member completed “Item”
-- Member hid “Item”
-- Member showed “Item” again
+## Flow 4: Activity (Locked)
 
-Optional: a single `Handoff` chip may appear on events involving a handoff item.
+Activity owns a calm, read-only record of Shared Cart actions.
+Activity must not become a pressure surface (no urgency, no enforcement, no performance interpretation, no notification-centre behavior).
 
-### Excluded events (LOCKED)
+### Included Events (Locked)
+
+- <Name> Added “Item”
+- <Name> Completed “Item”
+- <Name> Hid “Item”
+- <Name> Showed “Item” Again
+- “Household Name Updated”
+- "A former member no longer have access"
+- "A member joined the household"
+- "A member left"
+- "Item details updated"
+- “System updated how a member is shown”
+- "Handoff updated"
+
+Identity display is system-owned. Where identity would create attribution pressure, the actor is shown as “Member” / “Former Member”.
+
+### Excluded Events (Locked)
+
 - No hearts events
 - No heart counts
-- No `For: <name>` chips in the Activity feed by default
+- No “For: <name>” chips in the Activity feed by default
 - No handoff type chips in the Activity feed by default
-- No “Household name updated”
-- No “Household members updated”
 
-### Activity → Activity context sheet (Handoff) (LOCKED)
-When an Activity entry involves a handoff item:
-- The feed stays minimal (event line + optional `Handoff` chip only).
-- Selecting the row opens a read-only `Activity context` view showing:
+### Activity Context Sheet (Handoff Item, High-Stakes) (Locked)
+
+When an Activity entry involves a **Handoff Item** (a **High-Stakes** coordination stress surface):
+
+- The Activity feed stays minimal (event line + optional “Handoff” chip only).
+- Selecting the row opens a read-only Activity Context view showing:
   - Item name
-  - Chips: `Handoff`, `For: <name>`, `<type>` (Pickup/Appointment/Visit/Other)
-- Exit safety: if the “For” person is not active, display `Former member` (system-owned).
+  - Chips: “Handoff”, “For: <name>”, and a type chip (Pickup / Appointment / Visit / Other)
+- Exit safety: if the “For” person is not active, display “Former Member” (system-owned).
 - The sheet contains no edit actions.
 
-## Flow 5: Multi-household context switch
-1. User taps “Switch household”.
-2. App changes context explicitly (global).
+## Flow 5: Multi-Household Context Switch
+
+1. Member taps “Switch Household”.
+2. The app changes Household context explicitly (global).
 3. The active Household name updates everywhere the header is shown.
 4. Shared Cart and Activity immediately re-scope to the newly selected Household.
-5. New context becomes current and persists as last viewed.
+5. The newly selected Household persists as the last viewed context.
 
-See: [Flow artefacts](./flow/)
+See: [Flow Artefacts](./flow/)
