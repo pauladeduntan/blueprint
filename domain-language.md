@@ -3,7 +3,7 @@
 ## Core nouns
 - Household: a shared context boundary.
 - Member: a person inside a household.
-- Shared Cart (Default Cart): the single household list in MVP.
+- Shared Cart (Default Cart): the single household list in the current research prototype.
 - Item: a line in the cart.
 - Activity: an immutable log of actions (read-only feed).
 
@@ -13,7 +13,8 @@
 
 ## Core verbs
 - Add item: place an item into the shared cart.
-- Complete item: hide item from active list (system-owned, reversible by re-adding).
+Complete item: system-owned action that hides an item from the active list (reversible by showing again).
+- Hide item: non-destructive substitute for remove/delete; hides item from the active list without blame.
 - Switch household: change active context explicitly.
 
 ## Additional verbs
@@ -25,7 +26,7 @@
 - If a former member performed an action, display as “Member” / “Former member” (system-owned).
 
 ## Tone rules (LOCKED)
-- Use “completed” not “deleted”.
+- Use “completed” not “deleted” or “removed”.
 - Avoid “assigned”, “overdue”, “reminder”, “failed”, “should”.
 - No judgement language; visibility without evaluation.
 
