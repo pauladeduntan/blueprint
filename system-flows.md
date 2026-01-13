@@ -1,4 +1,4 @@
-# System Flows (MVP)
+# System Flows (current research prototype)
 
 ## Flow 1: Entry (Guest-first)
 1. User opens app → Entry screen.
@@ -15,9 +15,9 @@
 
 ## Flow 3: Shared Cart loop
 1. User opens shared cart.
-2. Adds item (raw text) → server normalizes canonical → dedupe.
+2. Adds item (raw text) → system applies canonical naming to prevent duplicates.
 3. If duplicate exists → user sees “already in the cart”.
-4. Completing item hides it from active list (non-destructive).
+4. Completing an item (or using Hide item) hides it from the active list (non-destructive).
 5. Re-adding a completed item restores it (reversible).
 
 ## Flow 4: Activity(LOCKED)
@@ -44,7 +44,7 @@ Optional: a single `Handoff` chip may appear on events involving a handoff item.
 ### Activity → Activity context sheet (Handoff) (LOCKED)
 When an Activity entry involves a handoff item:
 - The feed stays minimal (event line + optional `Handoff` chip only).
-- Tapping the row opens a read-only bottom sheet titled `Activity context` showing:
+- Selecting the row opens a read-only `Activity context` view showing:
   - Item name
   - Chips: `Handoff`, `For: <name>`, `<type>` (Pickup/Appointment/Visit/Other)
 - Exit safety: if the “For” person is not active, display `Former member` (system-owned).
