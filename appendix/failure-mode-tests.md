@@ -1,25 +1,35 @@
-# Failure-mode tests (public-safe)
+# Failure-Mode Tests (Public-Safe)
 
-These are the failure scenarios the prototype and eventual implementation must defend against. This is not a test harness or implementation guide.
+These are failure scenarios the research artefact (and any later instantiation derived from it) must defend against. This is not a test harness or implementation guide.
 
-## FM1: Wrong-household action
-User believes they are in Household B but an action lands in Household A.
-- Harm: high (trust break + interpersonal conflict risk)
+## FM1: Wrong-Household Action
 
-## FM2: Irreversible completion
-A completion behaves like deletion and cannot be safely undone.
-- Harm: “I ruined it” moment; conflict amplifier
+A Member believes they are in Household B but an action lands in Household A.
 
-## FM3: Identity exposure after exit
-Past Activity permanently exposes a person who left/was removed.
+- Harm: high (trust breach + interpersonal conflict risk)
+
+## FM2: Irreversible Completion
+
+“Complete Item” behaves like deletion and cannot be safely undone via “Show Again”.
+
+- Harm: an “I ruined it” moment; conflict amplifier
+
+## FM3: Identity Exposure After Exit
+
+Activity permanently exposes a Former Member after they leave or are removed.
+
 - Harm: safety breach; can cause real interpersonal harm
 
-## FM4: Activity becomes a performance feed
-Logs feel like surveillance even without scoring.
-- Harm: pressure, judgment, disengagement
+## FM4: Activity Becomes A Performance Feed
 
-## Mitigation principles
-- Reversibility by default
-- System-owned language (no blame)
-- Minimum identity exposure necessary for comprehension
-- Boundary integrity as a safety property, not a convenience feature
+Activity feels like surveillance even without scoring.
+
+- Harm: pressure, judgement, disengagement
+
+## Mitigation Principles
+
+- Reversibility by default.
+- System-owned language (no blame, no policing).
+- Minimum identity exposure necessary for comprehension (system-owned “Member” / “Former Member” labels where needed).
+- Boundary integrity as a safety property, not a convenience feature.
+- High-Stakes Handoff Items amplify these harms and must not introduce urgency, enforcement, or attribution pressure as “solutions”.
