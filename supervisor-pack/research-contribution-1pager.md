@@ -16,12 +16,12 @@ KinCart investigates a constraint-first alternative: **make shared intent visibl
    - Reversibility by default
    - System-owned language (no blame or policing)
 2) **Domain language as a safety mechanism** that prevents scorekeeping drift (e.g., “shared intent visible”, “completed”, “save progress”, “former member”).
-3) **Failure-aware interaction contracts** that surface high-risk breakdowns explicitly (e.g., wrong-household actions; identity exposure after leaving/removal).
+3) **Failure-aware interaction contracts that surface high-risk breakdowns explicitly and make them legible for qualitative study (e.g., wrong-household actions; identity exposure after leaving/removal).
 4) **Decision discipline as method: explicit decision records and anti-drift gates that keep public artefacts consistent while avoiding implementation recipes.
 
-## What exists today (evidence)
+## What exists today (research materials)
 - High-fidelity prototype demonstrating key interaction contracts (explicit household switching; reversible completion; readable Activity).
-- Public blueprint + governance artefacts documenting constraints, decisions, and trade-offs (non-commercial research framing).
+- Public blueprint and decision records that document design constraints and scope boundaries, used to maintain interpretive consistency rather than as empirical evidence.
 
 ## Research questions (examples)
 - How do interface cues (language, reversibility, visibility) change perceived pressure, trust, and conflict risk in household coordination?
@@ -31,7 +31,7 @@ KinCart investigates a constraint-first alternative: **make shared intent visibl
 ## Methods
 - Diary + interviews with households to capture lived breakdowns and emotional load.
 - Prototype-based interpretive comparison (constraint-first KinCart patterns discussed alongside familiar coordination patterns).
-- Optional lightweight interaction logging (ethics-approved, privacy-first, no scoring).
+- Optional lightweight interaction logging limited to interaction types (ethics-approved, privacy-first, no scoring, no per-person metrics).
 
 ## Fit
 HCI and CSCW communities focused on domestic computing, shared-access systems, values-aware design, and safety-aware interaction.
