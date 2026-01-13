@@ -1,63 +1,67 @@
-# KinCart — PhD supervisor pack
+# README.md
 
-This folder contains a small set of research materials intended to support initial PhD supervision conversations.  
-KinCart is a **non-commercial HCI/CSCW research artefact**, not a product or service.
+# Supervisor Pack: KinCart Research Artefact
 
----
+## What this is
 
-## What you can review
+KinCart is a non-commercial HCI and CSCW research artefact used to study how household coordination can reduce mental load while preserving emotional safety.
 
-**Suggested reading order (≈10 minutes):**
-1) Research contribution (1 page) — conceptual framing and contribution
-2) Short prototype walkthrough video (3–5 min, unlisted) — interaction constraints in context
-3) Figma prototype — click-through interaction context (view-only access)
+It is intentionally not a task manager and refuses enforcement mechanics such as reminders, nudges, scoring, and surveillance patterns.
 
-**Materials:**
-- Figma prototype <[Figma](https://www.figma.com/proto/0BKLn5A6LTL217Wn1Vtk1u/KinCart-Hi-fi-Mock-up-Screens?node-id=484-6085&t=1YxIJJ2rhqY7Rphx-1)> (click-through, view-only; used in interpretive walkthrough interviews)
-- Short walkthrough video (3–5 min, unlisted; illustrates interaction constraints and breakdown handling)
-- Research contribution one-pager: `./research-contribution-1pager.md`
+## Core Research Problem
 
----
+Many coordination tools drift from shared visibility into enforcement through accountability cues and performance-like logs. In households, this can increase pressure and conflict, especially when capacity is uneven or authority is informal.
 
-## What is being studied
+KinCart explores a constraint-first alternative: make shared intent visible while preventing judgement, monitoring, and policing dynamics.
 
-Household coordination breakdowns where **interface-level visibility cues** are interpreted as pressure, increasing emotional load, conflict risk, and trust fragility in shared living contexts.
+## Central Probe: Handoff Item (High-Stakes)
 
-The focus is not task completion or efficiency, but how people interpret coordination signals during everyday breakdown and repair.
+The Handoff Item is a deliberate high-stakes coordination probe. It is used to surface breakdown and repair dynamics in moments like appointments, pickups, and care where mistakes are socially costly and blame risk is high.
 
----
+Handoff is not a feature add-on. It is a methodological stress surface.
 
-## Why this matters
+## What You Can Review Here
 
-Many coordination systems prioritise completion, accountability, and optimisation. In domestic contexts, these design choices can unintentionally introduce judgement, surveillance, or enforcement cues that increase emotional load and interpersonal tension.
+- Research Contribution (1 page): conceptual framing and contribution.
+- Research Statement (2 pages): research motivation, framing, and fit.
+- Study Plan (1 page): qualitative study outline and feasibility.
+- Prototype Evidence: a high-fidelity prototype and optional short walkthrough video (links in links.md).
+- Scenario Vignettes: discussion prompts designed to surface interpretation, breakdown, and repair.
+- Ethics And Risk Notes: how the artefact avoids coercion and reduces identity and conflict risk.
 
-KinCart explores an alternative constraint: **preserve emotional safety while keeping shared intent visible**, and studies how this changes interpretation, trust, and willingness to engage.
+## What This Pack Is Not
 
----
+- Not evidence of outcomes, impact, or effectiveness.
+- Not a product plan or commercial pitch.
+- Not an implementation guide or build recipe.
 
-## What exists today (research materials)
+## Method Posture
 
-- Locked domain language and invariants used to constrain interpretation and prevent judgement drift
-- Prototype materials demonstrating failure-aware interaction contracts (e.g., reversible completion, explicit household boundaries, system-owned identity)
-- Decision discipline that prevents silent drift in public research artefacts while avoiding implementation disclosure
+This work uses qualitative, interpretive CSCW methods. Prototypes are probes to elicit interpretation, not evaluation targets. The goal is to understand how people read cues, what breakdowns feel risky, and what repair looks like.
 
-These materials support interpretive study; they are not presented as empirical findings.
+## How To Use This Pack
 
----
+1) Read Research Contribution for the problem framing and probe logic.
+2) Read Research Statement for fit and positioning.
+3) Read Study Plan for method feasibility.
+4) Review Ethics And Risk Notes to understand safety posture and boundaries.
+5) Use Scenario Vignettes as interview or walkthrough prompts.
+6) Use Links for quick access to artefacts and supporting materials.
 
-## What I’m seeking
+## Domain Language
 
-PhD supervision aligned with **HCI / CSCW research** on:
-- coordination and collaboration
-- domestic and everyday computing
-- shared-access systems
-- values-aware and safety-aware interaction design
+Terms used throughout are system-owned and intentionally constrained:
+Household, Member, Former Member, Shared Cart, Item, Activity, Handoff Item, Hide Item, Complete Item, Save Progress.
 
-I am open to refining research questions and methods within a supervisor’s thematic scope.
+## Contact and Use Boundary
 
----
+These materials are for research discussion and supervisor review. Any participant-facing study use requires appropriate ethics and consent processes as required by the host institution.
 
-## Ethics and positioning
+## Files in this Folder
 
-KinCart is maintained as a **research-only artefact**.  
-It avoids enforcement, scoring, attribution pressure, and surveillance cues by design, with explicit attention to exit safety and identity protection in shared household contexts.
+- `research-contribution-1pager.md`
+- `research-statement-2page.md`
+- `study-plan-1page.md`
+- `ethics-risk-notes.md`
+- `scenerio-vignettes.md`
+- `links.md`
