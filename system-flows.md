@@ -38,7 +38,6 @@ Activity must not become a pressure surface (no urgency, no enforcement, no perf
 - “Household Name Updated”
 - "A former member no longer have access"
 - "A member joined the household"
-- "A member left"
 - "Item details updated"
 - “System updated how a member is shown”
 - "Handoff updated"
