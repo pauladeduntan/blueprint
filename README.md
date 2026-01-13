@@ -1,8 +1,12 @@
 # KinCart — blueprint (research artefacts)
 
-KinCart is a mobile-first household coordination system designed to reduce mental load and preserve emotional safety through shared visibility, calm defaults, and system-owned language. It is not a task manager, accounting tool, or enforcement mechanism.
+KinCart is a **research-led coordination artefact** for studying how shared intent is made visible in households without drifting into enforcement, surveillance, or judgement. It takes the form of a mobile-first prototype, but it is not a task manager, accounting tool, or behavioural enforcement mechanism.
+
+The artefact is intentionally designed around explicit interaction invariants (e.g., system-owned language, reversibility by default, boundary clarity) so that breakdown, repair, and interpretation can be studied as coordination work rather than optimised task execution.
 
 ## Governance (binding decisions live here)
+
+Governance in KinCart functions as a **research control mechanism**, not an organisational or engineering process. Decisions are recorded to prevent interpretive drift (e.g., accidental introduction of enforcement or judgement cues) and to preserve invariant integrity across iterations of the research artefact.
 
 This repository is governed by the KinCart governance repo:
 - Decisions become truth only when committed in governance.
@@ -28,7 +32,7 @@ KinCart is a **non-commercial research artefact**. This repository documents res
 
 **Mechanics policy:** Implementation details that would enable cloning (schemas/RLS/RPC specifics, deploy steps, paste-ready backend scripts) are intentionally **not** published in public.
 
-**Future pathway (hypothetical only):** Any future commercialization would require explicit conditions (institutional approval, legal/immigration compliance, ethics posture, and funding). Until those conditions are met, KinCart remains **research-only**.
+Any use of KinCart beyond its role as a research artefact would require separate institutional review and ethical approval. Until such conditions exist, KinCart is treated exclusively as a research probe and documented accordingly.
 
 **Start here:** [START_HERE.md](https://github.com/pauladeduntan/blueprint/blob/main/START_HERE.md)
 
