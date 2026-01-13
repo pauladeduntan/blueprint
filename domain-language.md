@@ -1,36 +1,45 @@
-# Domain Language (LOCKED)
+# Domain Language (Locked)
 
-## Core nouns
+## Core Nouns
+
 - Household: a shared context boundary.
-- Member: a person inside a household.
+- Member: a person inside a Household.
 - Shared Cart (Default Cart): the single household list in the current research prototype.
-- Item: a line in the cart.
+- Item: a line in the Shared Cart.
 - Activity: an immutable log of actions (read-only feed).
 
-## Additional nouns
-- Former member: a person who previously belonged to a household but no longer has access.
-- Save progress: neutral framing for optional sign-in (not a conversion push).
+## Additional Nouns
 
-## Core verbs
-- Add item: place an item into the shared cart.
-Complete item: system-owned action that hides an item from the active list (reversible by showing again).
-- Hide item: non-destructive substitute for remove/delete; hides item from the active list without blame.
-- Switch household: change active context explicitly.
+- Handoff Item: a High-Stakes coordination Item used as a stress surface to study breakdown, repair, trust, and emotional safety.
+- Former Member: a person who previously belonged to a Household but no longer has access.
+- Save Progress: neutral framing for optional sign-in (not a conversion push).
 
-## Additional verbs
-- Leave household: exit a household context; access ends immediately.
-- Remove member: system-owned household action; never framed as punishment.
+## Core Verbs
 
-## Activity naming rule
+- Add Item: place an Item into the Shared Cart.
+- Complete Item: system-owned action that hides an Item from the active list (reversible by showing again).
+- Hide Item: non-destructive substitute for remove/delete; hides an Item from the active list without signalling fault or punishment.
+- Switch Household: change active context explicitly.
+
+## Additional Verbs
+
+- Leave Household: exit a Household context; access ends immediately.
+- Remove Member: system-owned Household action; never framed as punishment.
+
+## Activity Naming Rules
+
 - Use “completed” (not “done”) and avoid language that implies fault, obligation, or performance.
-- If a former member performed an action, display as “Member” / “Former member” (system-owned).
+- Avoid excessive attribution pressure: use “Member” / “Former Member” (system-owned) where identity would increase surveillance interpretation.
+- For changes that are not safely specific, prefer neutral phrasing (for example, “Item Updated”) over detail that can be read as blame.
 
-## Tone rules (LOCKED)
+## Tone Rules (Locked)
+
 - Use “completed” not “deleted” or “removed”.
 - Avoid “assigned”, “overdue”, “reminder”, “failed”, “should”.
 - No judgement language; visibility without evaluation.
 
-## UI labels (MVP)
-- “Shared Cart” (preferred) or household-named cart title.
+## UI Labels
+
+- “Shared Cart” (preferred) or a Household-named cart title.
 - “Activity” for the log.
-- “Continue as guest” for primary entry.
+- “Continue As Guest” for primary entry.
