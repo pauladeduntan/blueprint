@@ -1,5 +1,4 @@
-## Research Statement — PhD In HCI / CSCW
-
+# Research Statement - PhD in HCI / CSCW
 
 ## 1. Research Problem and Motivation
 
@@ -9,19 +8,23 @@ My research examines this drift as an interaction and interpretation problem in 
 
 These risks are amplified in High-Stakes coordination moments, such as Handoff Items involving appointments, care, or time-bound coordination. In such cases, visibility can quickly become blame if not carefully constrained. High-Stakes does not justify enforcement or urgency mechanics. It increases the need for emotionally safe visibility.
 
-## 2. Conceptual Contribution to HCI/CSCW
+## 2. Why Households are a Valid CSCW Site (and Why it Generalizes)
+
+Households are a high-frequency coordination setting where roles are uneven, stakes are interpersonal, and breakdowns are common. This makes them a useful CSCW site for studying how coordination systems drift from shared visibility into enforcement cues, and how people interpret and repair trust after miscoordination. The intent is not to claim household universality, but to use domestic coordination as a controlled probe for broader small-group coordination problems where boundary integrity, identity safety, and emotional safety shape what “helpful” systems can safely do.
+
+## 3. Conceptual Contribution to HCI/CSCW
 
 This work contributes a constraint-first account of household coordination systems that preserve emotional safety while making shared intent visible. The contribution is not a new feature set, but a research-grounded vocabulary of interaction contracts and guardrails that prevent enforcement drift.
 
 Key conceptual contributions include:
 
-- Visibility Without Enforcement: Activity as a readable record of shared intent, not a performance feed, and not a notification centre.
-- System-owned Language as Safety Infrastructure: labels that reduce attribution pressure and blame risk (Member, Former Member, Complete Item, Hide Item, Save Progress).
-- Reversibility as Repair Support: interaction contracts that prevent “I ruined it” moments and make recovery socially easier.
+- Visibility Without Enforcement: Activity treated as a readable record of shared intent, not a performance feed and not a notification centre.
+- System-Owned Language As Safety Infrastructure: labels that reduce attribution pressure and blame risk (Member, Former Member, Complete Item, Hide Item, Save Progress).
+- Reversibility As Repair Support: interaction contracts that prevent “I ruined it” moments and make recovery socially easier.
 - Boundary Integrity And Exit Safety As Trust Contracts: Household boundaries and membership transitions treated as safety-critical, not merely state changes.
-- High-Stakes Handoff Items as a Methodological Stress Surface: deliberate scenarios used to surface interpretation risk, breakdown, and repair dynamics under heightened relational stakes.
+- High-Stakes Handoff Items As A Methodological Stress Surface: deliberate scenarios used to surface interpretation risk, breakdown, and repair dynamics under heightened relational stakes.
 
-## 3. Empirical Strategy and Methodological Orientation
+## 4. Empirical Strategy and Methodological Orientation
 
 Methodologically, I use qualitative, interpretive CSCW approaches focused on meaning-making, breakdown, and repair. I treat prototypes as probes, not evaluation targets, and I explicitly avoid behavioural measurement, scoring, or optimisation claims.
 
@@ -29,12 +32,14 @@ My empirical strategy combines:
 
 - Interpretive Walkthrough Interviews: participants interpret a prototype-as-probe through guided scenarios to surface how cues are read as pressure, safety, blame, or support.
 - Vignette-Based Interpretive Sessions: structured breakdown scenarios (wrong-Household action, ambiguous completion, identity exposure after exit), including High-Stakes Handoff Item moments.
-- Optional Diary Prompts with Follow-up Interviews: lightweight prompts to capture lived coordination moments, treated as interpretive material rather than behavioural telemetry.
+- Optional Diary Prompts With Follow-up Interviews: lightweight prompts to capture lived coordination moments, treated as interpretive material rather than behavioural telemetry.
 
 What the system explicitly refuses to do (no reminders, no nudges, no contribution scoring, no urgency mechanics) is treated as part of the method: these refusals clarify the boundary between visibility and enforcement and make interpretation shifts legible.
 
-## 4. Research Trajectory and Fit with HCI/CSCW
+Analysis will use interpretive qualitative coding (for example, reflexive thematic analysis) oriented around breakdown moments, repair strategies, and perceived judgement pressure.
+
+## 5. Research Trajectory and Fit with HCI/CSCW
 
 Household coordination provides a grounded site for studying shared intent, negotiated responsibility, and emotionally safe visibility. The work generalises to broader CSCW concerns about shared logs, shared access, identity display, boundary integrity, and how coordination artefacts drift into surveillance or management cues.
 
-HCI/CSCW provides the appropriate intellectual home because it foregrounds interactional interpretation, socio-technical breakdown and repair, and the consequences of design cues in everyday life. I am open to refining the research questions and study design in dialogue with supervisors, while keeping the core invariants stable: emotional safety over optimisation, and visibility over reminders.
+HCI/CSCW provides the appropriate intellectual home because it foregrounds interactional interpretation, socio-technical breakdown and repair, and the consequences of design cues in everyday life. I am open to refining the research questions and study design in dialogue with supervisors, while keeping the core invariants stable: Emotional Safety Over Optimisation, and Visibility Over Reminders.
