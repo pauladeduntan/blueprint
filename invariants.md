@@ -4,8 +4,8 @@ These are non-negotiable. If a proposed change violates an invariant, it is not 
 
 ## Research Artefact Invariants
 
-1. Emotional safety over optimisation.
-2. Visibility over reminders.
+1. Emotional Safety Over Optimisation.
+2. Visibility Over Reminders.
 3. Shared intent visible; no contribution scoring, fairness evaluation, or per-person judgement.
 4. Reversibility: actions must not trap Members or force commitment.
 5. System-owned language: the UI must not blame, police, or imply obligation.
