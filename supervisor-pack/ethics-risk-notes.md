@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document summarizes the primary ethics and safety risks in studying household coordination and the mitigation posture used by the KinCart research artefact.
+This document summarizes the primary ethics and safety risks in studying Household coordination and the mitigation posture used by the KinCart research artefact.
 
 This is not a claim of approval. Any participant study must follow the appropriate ethics and consent processes required by the host institution.
 
@@ -10,9 +10,9 @@ This is not a claim of approval. Any participant study must follow the appropria
 
 - Emotional safety over optimisation.
 - Visibility over reminders.
-- Activity is a calm, read-only record, not a performance feed.
+- Activity is a calm, read-only record, not a performance feed or notification centre.
 - Reversibility by default to support repair after mistakes.
-- Exit safety: leaving or removal ends access immediately, and identity exposure is minimized.
+- Exit safety: leaving or removal ends access immediately, and identity exposure is minimized through system-owned identity rules.
 
 ## Primary Risk Areas and Mitigations
 
@@ -27,7 +27,7 @@ Mitigations:
 
 ### Risk 2: Surveillance Interpretation
 
-Even without explicit metrics, activity logs can feel like monitoring.
+Even without explicit metrics, Activity logs can feel like monitoring.
 
 Mitigations:
 - Activity is restrained, neutral, and non-evaluative.
@@ -40,8 +40,9 @@ Logs can become evidence in disputes, increasing interpersonal harm.
 
 Mitigations:
 - Activity avoids accusatory framing and avoids escalation detail.
-- Membership boundary events are system-owned and non-attributed by default.
-- Detail sheets, where present, are minimal and do not increase auditability.
+- System-owned Household boundary events are non-attributed by default.
+- Names in Activity, where present for active Members, are bounded by anti-amplification guardrails: no per-person views, counts, sorting, grouping, filtering, badges, streaks, or export-like summaries.
+- Detail sheets, where present, are minimal and do not increase auditability. Optional details are read-only and contain no edit controls.
 
 ### Risk 4: Identity Exposure After Exit
 
@@ -49,7 +50,7 @@ A person leaving a Household can remain visible through history, which can be un
 
 Mitigations:
 - Exit safety: access ends immediately.
-- Former Member is de-identified by default in Activity.
+- Dynamic identity redaction: when membership ends, historical Activity entries and context sheets must immediately re-render the actor as “Former Member” by default (no persistent name exposure).
 - No persistent display-name history is presented by default.
 
 ### Risk 5: High-Stakes Handoff Policing
@@ -57,13 +58,13 @@ Mitigations:
 Handoff moments are high pressure and can invite precision policing.
 
 Mitigations:
-- Handoff is a high-stakes probe surface with anti-policing guardrails.
-- Prefer situational summaries over exact times by default.
+- Handoff Item is a High-Stakes probe surface with anti-policing guardrails.
+- In the prototype materials, prefer situational summaries over exact times by default.
 - Handoff context remains minimal in the Activity feed and is revealed on demand in a read-only context view.
 
-### Risk 6: Data Minimisation and Re-Identification
+### Risk 6: Data Minimisation and Re-identification
 
-Even small traces can identify people in household contexts.
+Even small traces can identify people in Household contexts.
 
 Mitigations:
 - No collection of sensitive personal data is required for the probe logic.
@@ -76,15 +77,15 @@ Mitigations:
 - No user-identifiable data is published.
 - Any study use of prototypes, vignettes, or logs requires informed consent and appropriate participant protections.
 
-## What is Explicitly not Claimed
+## What Is Explicitly not Claimed
 
 - No claims of behavioral improvement, compliance, or productivity gains.
-- No claims that KinCart is safer for all households or all conflict contexts.
+- No claims that KinCart is safer for all Households or all conflict contexts.
 - No claims of generalization without empirical study.
 
-## Questions To Probe in Ethics Review
+## Questions to Probe in Ethics Review
 
-- Under what household conditions does visibility feel supportive versus controlling?
+- Under what Household conditions does visibility feel supportive versus controlling?
 - What cues trigger perceived monitoring even when metrics are absent?
 - What exit representations minimize harm while preserving comprehension?
 - What handoff representations reduce ambiguity without becoming policing tools?
