@@ -29,6 +29,8 @@ These are non-negotiable. If a proposed change violates an invariant, it is not 
 
 1. Shared objects are Household-scoped: access is granted only by active membership within a Household boundary.
 2. Activity is append-only: actions become visible records and are not user-editable.
-3. System-owned identity display: identity may be reduced (for example “Member” / “Former Member”) to avoid permanent exposure by default.
-4. Non-destructive user-facing state: use visibility states rather than destructive deletion for user-facing objects.
-5. Exit safety: when a Member leaves (or is removed), access ends immediately; past actions may remain visible, but identity is not permanently exposed by default.
+3. Activity must not become a performance feed: it must not support per-person views, counts, sorting, grouping, filtering, badges, streaks, or any other performance-like interpretation.
+4. System-owned identity display: identity may be reduced (for example “Member” / “Former Member”) to avoid permanent exposure by default.
+5. Dynamic identity redaction: when membership ends, historical Activity entries and context sheets must immediately re-render the actor as “Former Member” by default (no persistent name exposure).
+6. Non-destructive user-facing state: use visibility states rather than destructive deletion for user-facing objects.
+7. Exit safety: when a Member leaves (or is removed), access ends immediately; past actions may remain visible, but identity is not permanently exposed by default.
