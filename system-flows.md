@@ -1,6 +1,6 @@
 # System Flows (Current Research Prototype)
 
-## Flow 1: Entry (Guest-first)
+## Flow 1: Entry (Guest-First)
 
 1. User opens app → Entry screen.
 2. Primary: Continue As Guest → proceed in a guest session.
@@ -26,23 +26,35 @@
 
 ## Flow 4: Activity (Locked)
 
-Activity owns a calm, read-only record of Shared Cart actions.
+Activity owns a calm, read-only record of Household coordination actions.  
 Activity must not become a pressure surface (no urgency, no enforcement, no performance interpretation, no notification-centre behavior).
+
+### Identity and Attribution Rules (Locked)
+
+Identity display is system-owned. Item events in Activity may show the actor display name for active Members as attribution only. When membership ends, historical entries and context sheets must immediately re-render the actor as “Former Member” by default (no persistent name exposure).
+
+Activity must not support per-person views, counts, sorting, grouping, filtering, badges, streaks, or any other performance-like interpretation.
 
 ### Included Events (Locked)
 
-- <Name> Added “Item”
-- <Name> Completed “Item”
-- <Name> Hid “Item”
-- <Name> Showed “Item” Again
-- “Household Name Updated”
-- "A former member no longer have access"
-- "A member joined the household"
-- "Item details updated"
-- “System updated how a member is shown”
-- "Handoff updated"
+Item-level events (attribution-only names allowed for active Members):
 
-Identity display is system-owned. Where identity would create attribution pressure, the actor is shown as “Member” / “Former Member”.
+- <Display Name> Added “Item”
+- <Display Name> Completed “Item”
+- <Display Name> Hid “Item”
+- <Display Name> Showed “Item” Again
+- Item Updated (Generic, used when a change must be visible without becoming blame-attribution detail)
+
+System-owned Household events (no individual attribution in the feed):
+
+- Household Name Updated (System-Owned)
+- Household Members Updated (System-Owned)
+- A Former Member No Longer Has Access (System-Owned)
+
+Handoff indicator in the feed:
+
+- Optional: a single “Handoff” chip may appear on any Item-level event involving a Handoff Item.
+- The Activity feed must not show handoff type chips (Pickup / Appointment / Visit / Other) by default.
 
 ### Excluded Events (Locked)
 
@@ -50,17 +62,36 @@ Identity display is system-owned. Where identity would create attribution pressu
 - No heart counts
 - No “For: <name>” chips in the Activity feed by default
 - No handoff type chips in the Activity feed by default
+- No “Member Left Household” or “Member Removed” event line in the Activity feed (use “A Former Member No Longer Has Access” as the system-owned feed line)
+- No separate “Handoff Updated” event line (use “Item Updated” with optional “Handoff” chip if needed)
+- No “Changed by <name>” attribution lines for system-owned Household events
 
-### Activity Context Sheet (Handoff Item, High-Stakes) (Locked)
+### Activity Context Sheet (Read-only) (Locked)
 
-When an Activity entry involves a **Handoff Item** (a **High-Stakes** coordination stress surface):
+Selecting any Activity row opens a read-only Activity Context view.
 
-- The Activity feed stays minimal (event line + optional “Handoff” chip only).
-- Selecting the row opens a read-only Activity Context view showing:
+- All optional details are read-only. The sheet contains no edit actions and no inline controls.
+
+#### Item Events (Including Handoff Item, High-Stakes)
+
+When the Activity entry involves an Item:
+
+- The Activity feed stays minimal (event line + optional “Handoff” chip only, if applicable).
+- The Activity Context view may show:
   - Item name
-  - Chips: “Handoff”, “For: <name>”, and a type chip (Pickup / Appointment / Visit / Other)
+  - Optional details (read-only) needed to reduce ambiguity, without adding blame, urgency, or enforcement framing
+
+When the Item is a **Handoff Item** (a **High-Stakes** coordination stress surface), the Activity Context view may also show:
+
+- Chips: “Handoff”, “For: <name>”, and a type chip (Pickup / Appointment / Visit / Other)
 - Exit safety: if the “For” person is not active, display “Former Member” (system-owned).
-- The sheet contains no edit actions.
+
+#### System-owned Household Events
+
+For system-owned events (Household Name Updated, Household Members Updated, A Former Member No Longer Has Access):
+
+- The Activity feed line remains neutral and non-attributing.
+- The Activity Context view may show minimal clarifying detail (read-only) to prevent confusion, without exposing removed identities by default.
 
 ## Flow 5: Multi-Household Context Switch
 
