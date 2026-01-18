@@ -6,7 +6,7 @@
 - Member: a person inside a Household.
 - Shared Cart (Default Cart): the single household list in the current research prototype.
 - Item: a line in the Shared Cart.
-- Activity: an immutable log of actions (read-only feed).
+- Activity: an immutable log of actions (read-only feed) that must not become a notification centre or a performance feed.
 
 ## Additional Nouns
 
@@ -29,6 +29,8 @@
 ## Activity Naming Rules
 
 - Use “completed” (not “done”) and avoid language that implies fault, obligation, or performance.
+- Attribution is permitted for active Members, but must remain bounded: Activity must not support per-person views, counts, sorting, grouping, filtering, or any performance-like interpretation.
+- Identity display is system-owned and may change over time: when membership ends, historical Activity entries and context sheets must immediately re-render the actor as “Former Member” by default (no persistent name exposure).
 - Avoid excessive attribution pressure: use “Member” / “Former Member” (system-owned) where identity would increase surveillance interpretation.
 - For changes that are not safely specific, prefer neutral phrasing (for example, “Item Updated”) over detail that can be read as blame.
 
@@ -43,3 +45,4 @@
 - “Shared Cart” (preferred) or a Household-named cart title.
 - “Activity” for the log.
 - “Continue As Guest” for primary entry.
+- “Save Progress” for optional sign-in framing.
