@@ -4,7 +4,7 @@ KinCart is a **non-commercial research artefact** for studying how shared intent
 
 The artefact is intentionally designed around explicit interaction invariants (system-owned language, reversibility by default, and boundary clarity) so that breakdown, repair, and interpretation can be studied as coordination work rather than optimised task execution. **Handoff Items** are treated as **High-Stakes** coordination surfaces to amplify blame risk and reveal breakdown and repair dynamics without introducing reminders or pressure.
 
-Activity is treated as an immutable, read-only record of shared intent and must not become a performance feed.
+Activity is treated as an immutable, read-only record of shared intent and must not become a performance feed or a notification centre. Attribution names may be shown for active Members, but Activity must not support per-person views, counts, sorting, grouping, filtering, or any performance-like interpretation. When membership ends, historical entries must immediately re-render the actor as “Former Member” by default.
 
 ## Research Governance (Binding Decisions Live Here)
 
