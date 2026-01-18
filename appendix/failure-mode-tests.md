@@ -30,6 +30,7 @@ Activity feels like surveillance even without scoring.
 
 - Reversibility by default.
 - System-owned language (no blame, no policing).
-- Minimum identity exposure necessary for comprehension (system-owned “Member” / “Former Member” labels where needed).
+- Minimum identity exposure necessary for comprehension (system-owned identity rules, including dynamic redaction to “Former Member” after membership ends).
+- Anti-amplification guardrails: Activity must not support per-person views, counts, sorting, grouping, filtering, badges, streaks, or any other performance-like interpretation.
 - Boundary integrity as a safety property, not a convenience feature.
-- High-Stakes Handoff Items amplify these harms and must not introduce urgency, enforcement, or attribution pressure as “solutions”.
+- High-Stakes Handoff Items amplify these harms and must not introduce urgency, enforcement, or increased attribution pressure as “solutions”. Attribution may exist for active Members, but must remain bounded and system-owned.
