@@ -1,5 +1,7 @@
 # System Flows (Current Research Prototype)
 
+These flows support interpretive study of **visibility-to-enforcement drift** in Households by specifying observable behavior without introducing reminders, scoring, or urgency cues. Prototype materials and flows are used as probes for interpretive inquiry, not findings.
+
 ## Flow 1: Entry (Guest-First)
 
 1. User opens app → Entry screen.
@@ -18,7 +20,7 @@
 ## Flow 3: Shared Cart Loop
 
 1. Member opens Shared Cart.
-2. Member adds an Item (free text) → the system normalizes entries to reduce accidental duplicates.
+2. Member adds an Item (free text) → the system normalizes entries to limit accidental duplicates.
 3. If the Item already exists → show a neutral confirmation (for example, “Already In Shared Cart”).
 4. Complete Item hides the Item from the active list (non-destructive).
 5. Hide Item hides the Item from the active list (non-destructive) without implying removal or fault.
@@ -47,8 +49,6 @@ Item-level events (attribution-only names allowed for active Members):
 
 System-owned Household events (no individual attribution in the feed):
 
-- Household Name Updated (System-Owned)
-- Household Members Updated (System-Owned)
 - A Former Member No Longer Has Access (System-Owned)
 
 Handoff indicator in the feed:
@@ -62,6 +62,8 @@ Handoff indicator in the feed:
 - No heart counts
 - No “For: <name>” chips in the Activity feed by default
 - No handoff type chips in the Activity feed by default
+- No “Household Name Updated” event line in the Activity feed by default
+- No “Household Members Updated” event line in the Activity feed by default
 - No “Member Left Household” or “Member Removed” event line in the Activity feed (use “A Former Member No Longer Has Access” as the system-owned feed line)
 - No separate “Handoff Updated” event line (use “Item Updated” with optional “Handoff” chip if needed)
 - No “Changed by <name>” attribution lines for system-owned Household events
@@ -88,7 +90,7 @@ When the Item is a **Handoff Item** (a **High-Stakes** coordination stress surfa
 
 #### System-owned Household Events
 
-For system-owned events (Household Name Updated, Household Members Updated, A Former Member No Longer Has Access):
+For system-owned events (A Former Member No Longer Has Access):
 
 - The Activity feed line remains neutral and non-attributing.
 - The Activity Context view may show minimal clarifying detail (read-only) to prevent confusion, without exposing removed identities by default.
