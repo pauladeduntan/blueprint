@@ -1,8 +1,8 @@
 # Governance Links (Cross-Repo Map)
 
-This appendix connects the **Blueprint** (what KinCart is and must remain) to **Governance** (what is committed and how drift is prevented).
+This appendix connects the **Blueprint** (what KinCart is and must remain) to **Governance** (what is committed and how drift pathways are constrained), anchored to **visibility-to-enforcement drift**.
 
-## Governance (Source Of Binding Decisions)
+## Governance (Source of Binding Decisions)
 
 - Governance Repo: https://github.com/pauladeduntan/governance
 - Decision Register: https://github.com/pauladeduntan/governance/blob/main/decision-register.md
@@ -12,7 +12,7 @@ This appendix connects the **Blueprint** (what KinCart is and must remain) to **
 
 ## Blueprint Artefacts Governed
 
-- Product Definition: ../product-definition.md
+- Artefact Definition: ../artefact-definition.md
 - Domain Language (Locked): ../domain-language.md
 - Invariants (Locked): ../invariants.md
 - System Flows: ../system-flows.md
@@ -29,10 +29,10 @@ This appendix connects the **Blueprint** (what KinCart is and must remain) to **
 
 ### Archived Decisions (Historical Context; Binding Status Defined in Decision Register)
 
-- D001 Project Framing → ../product-definition.md
+- D001 Project Framing → ../artefact-definition.md
 - D002 Product Checksum and Invariants → ../invariants.md, ../domain-language.md
-- D003 Scope Boundary and Exclusions → ../product-definition.md, ../system-flows.md
-- D004 Data Ownership and Research Posture → ../invariants.md, ../product-definition.md
+- D003 Scope Boundary and Exclusions → ../artefact-definition.md, ../system-flows.md
+- D004 Data Ownership and Research Posture → ../invariants.md, ../artefact-definition.md
 - D005 Data Ownership and Exit Safety → ../invariants.md, ./screen-responsibility-contracts.md
 - D006 Activity Privacy Veil → ../domain-language.md, ./screen-responsibility-contracts.md
 - D007 Activity Context Sheet → ../system-flows.md, ./screen-responsibility-contracts.md
@@ -44,12 +44,16 @@ This appendix connects the **Blueprint** (what KinCart is and must remain) to **
 - D010 Handoff Tag with Anti-policing Guardrails → ../invariants.md, ../system-flows.md, ../domain-language.md, ./screen-responsibility-contracts.md
 - D011 Replace Remove/Delete with Hide Item (Reversible) → ../domain-language.md, ../invariants.md, ../system-flows.md
 - D012 Remove Hearts from Main List Row → ./screen-responsibility-contracts.md, ../system-flows.md
-- D013 Auth Framed as Save Progress; Guest is First-class → ../domain-language.md, ../system-flows.md, ../product-definition.md
+- D013 Auth Framed as Save Progress; Guest is First-class → ../domain-language.md, ../system-flows.md, ../artefact-definition.md
 - D014 Item Details Accessible from Activity → ../system-flows.md, ./screen-responsibility-contracts.md
-- D015 Placeholder and Microcopy Rules are Consistent → ../domain-language.md, ./screen-responsibility-contracts.md, ../product-definition.md
+- D015 Placeholder and Microcopy Rules are Consistent → ../domain-language.md, ./screen-responsibility-contracts.md, ../artefact-definition.md
+- D016 Activity Attribution Names With Dynamic Redaction After Exit → ../domain-language.md, ../system-flows.md, ../invariants.md
+- D017 Activity Anti-Amplification Guardrails → ../domain-language.md, ../system-flows.md, ../invariants.md, ./failure-mode-tests.md
+- D018 System-Owned Household Events In Activity Feed → ../system-flows.md, ../domain-language.md
+  - Note: visibility may be via system-owned feed lines or read-only context sheets depending on the current prototype flow.
+- D019 Member Exit Feed Wording Is System-Owned → ../system-flows.md, ../domain-language.md, ../invariants.md
 
-## Change Gate Summary (Enforceable in Spirit, Public-Safe I
-in Detail)
+## Change Gate Summary (Enforceable in Spirit, Public-Safe in Detail)
 
 If a suggestion conflicts with an invariant, the invariant wins.  
 If a shortcut increases emotional risk or pressure cues, reject it.
