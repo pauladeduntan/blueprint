@@ -6,13 +6,15 @@ This document summarizes the primary ethics and safety risks in studying Househo
 
 This is not a claim of approval. Any participant study must follow the appropriate ethics and consent processes required by the host institution.
 
+This posture constrains **visibility-to-enforcement drift** by treating safety commitments as design constraints for research probes, not as claims of achieved safety outcomes.
+
 ## Core Safety Commitments
 
 - Emotional safety over optimisation.
 - Visibility over reminders.
 - Activity is a calm, read-only record, not a performance feed or notification centre.
 - Reversibility by default to support repair after mistakes.
-- Exit safety: leaving or removal ends access immediately, and identity exposure is minimized through system-owned identity rules.
+- Exit safety: leaving or removal ends access immediately, and identity exposure is bounded through system-owned identity rules.
 
 ## Primary Risk Areas and Mitigations
 
@@ -40,7 +42,7 @@ Logs can become evidence in disputes, increasing interpersonal harm.
 
 Mitigations:
 - Activity avoids accusatory framing and avoids escalation detail.
-- System-owned Household boundary events are non-attributed by default.
+- System-owned Household boundary events are non-attributed by default and may be surfaced via a system-owned feed line or read-only context view depending on the current prototype flow.
 - Names in Activity, where present for active Members, are bounded by anti-amplification guardrails: no per-person views, counts, sorting, grouping, filtering, badges, streaks, or export-like summaries.
 - Detail sheets, where present, are minimal and do not increase auditability. Optional details are read-only and contain no edit controls.
 
@@ -77,7 +79,7 @@ Mitigations:
 - No user-identifiable data is published.
 - Any study use of prototypes, vignettes, or logs requires informed consent and appropriate participant protections.
 
-## What Is Explicitly not Claimed
+## What is Explicitly not Claimed
 
 - No claims of behavioral improvement, compliance, or productivity gains.
 - No claims that KinCart is safer for all Households or all conflict contexts.
@@ -88,4 +90,4 @@ Mitigations:
 - Under what Household conditions does visibility feel supportive versus controlling?
 - What cues trigger perceived monitoring even when metrics are absent?
 - What exit representations minimize harm while preserving comprehension?
-- What handoff representations reduce ambiguity without becoming policing tools?
+- What handoff representations bound ambiguity without becoming policing tools?
