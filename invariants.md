@@ -2,6 +2,8 @@
 
 These are non-negotiable. If a proposed change violates an invariant, it is not introduced into the research artefact.
 
+These invariants constrain **visibility-to-enforcement drift** by making enforcement interpretations and outcome-claim pathways non-viable by design.
+
 ## Research Artefact Invariants
 
 1. Emotional Safety Over Optimisation.
@@ -22,7 +24,7 @@ These are non-negotiable. If a proposed change violates an invariant, it is not 
 1. Single default Shared Cart per Household (one shared list per Household in the current research prototype).
 2. No separate event-specific cart surface in the current research prototype; event examples are illustrative only and excluded from the prototype.
 3. No push notifications, reminders, or urgency mechanics in the current research prototype.
-4. No settlements, reimbursements, or per-person totals. Any cost awareness is limited to reducing surprises and does not introduce tracking or enforcement.
+4. No settlements, reimbursements, or per-person totals. Any cost awareness is limited to bounding surprises and does not introduce tracking or enforcement.
 5. Guest-first entry is primary; sign-in is optional and framed as “Save Progress”.
 
 ## Data and Governance Invariants (Conceptual)
