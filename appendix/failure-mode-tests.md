@@ -1,6 +1,6 @@
 # Failure-Mode Tests (Public-Safe)
 
-These are failure scenarios the research artefact (and any later instantiation derived from it) must defend against. This is not a test harness or implementation guide.
+These are failure scenarios used to study **visibility-to-enforcement drift** and constrain enforcement interpretations in the research artefact (and any later instantiation derived from it). This is not a test harness or implementation guide.
 
 ## FM1: Wrong-Household Action
 
@@ -10,7 +10,7 @@ A Member believes they are in Household B but an action lands in Household A.
 
 ## FM2: Irreversible Completion
 
-“Complete Item” behaves like deletion and cannot be safely undone via “Show Again”.
+“Hide Item” behaves like deletion and cannot be safely undone via “Show Again”.
 
 - Harm: an “I ruined it” moment; conflict amplifier
 
@@ -20,7 +20,7 @@ Activity permanently exposes a Former Member after they leave or are removed.
 
 - Harm: safety breach; can cause real interpersonal harm
 
-## FM4: Activity Becomes A Performance Feed
+## FM4: Activity Becomes a Performance Feed
 
 Activity feels like surveillance even without scoring.
 
