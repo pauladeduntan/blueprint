@@ -1,6 +1,8 @@
 # Writing Sample (MBA Dissertation)
 (Revised excerpt submitted as a writing sample to demonstrate qualitative analysis and research discipline)
 
+This sample is included only to evidence interpretive qualitative discipline and careful claims scoping; it is not a statement of the current HCI/CSCW research topic.
+
 ## Title
 
 Assessing the Impact of FinTech Disruptive Capabilities on High Street Banks in the United Kingdom
@@ -11,11 +13,11 @@ This study examines how FinTech-driven capabilities reshape the socio-technical 
 
 The UK retail banking sector provides an appropriate empirical context due to its mature regulatory environment, dense legacy infrastructure, and early exposure to digital challengers.
 
-Research Question: How do FinTech disruptive capabilities reshape service delivery practices, cost structures, and organisational responses within incumbent UK high street banks, and what mechanisms are described as driving these shifts?
+Research Question: How do FinTech disruptive capabilities reshape service delivery practices, cost structures, and organisational responses within incumbent UK high street banks, and what sector narratives describe as driving these shifts?
 
 ## 2. Method
 
-The study adopts a qualitative-dominant research design based on secondary data analysis using publicly available sources. Data sources include industry reports, regulatory publications, policy documents, and peer-reviewed literature relevant to UK retail banking.
+The study adopts an interpretive qualitative research design based on secondary data analysis using publicly available sources. Data sources include industry reports, regulatory publications, policy documents, and peer-reviewed literature relevant to UK retail banking.
 
 A purposive sampling strategy prioritised sources addressing FinTech-enabled capabilities such as digital payments, mobile banking platforms, open banking infrastructure, and automation. Sources were selected for analytical relevance rather than representativeness, reflecting an interpretive aim of identifying described mechanisms and patterns rather than estimating causal effects.
 
