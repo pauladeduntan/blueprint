@@ -6,13 +6,13 @@ Shared-Intent Coordination In Households: Making Visibility Safe Without Enforce
 
 ## Problem
 
-In shared Households, coordination tools can reduce ambiguity but often increase emotional load by introducing accountability cues such as nudges, reminders, “overdue” states, or performance-like feeds. These cues can shift coordination from shared intent toward perceived management, increasing friction and risking trust breakdown, particularly where coordination is informal and authority is weak.
+In shared Households, coordination tools often surface **visibility-to-enforcement drift**, where attempts at shared visibility are interpreted as management through cues such as nudges, reminders, “overdue” states, or performance-like feeds. These cues can shift coordination from shared intent toward perceived management, increasing friction and risking trust breakdown, particularly where coordination is informal and authority is weak.
 
 These risks are amplified in High-Stakes coordination moments, such as Handoff Items involving appointments, care, or time-bound coordination. In such cases, mistakes are socially costly, and visibility can quickly become blame if not carefully constrained. High-Stakes does not justify enforcement or urgency mechanics.
 
 ## Why Households are a Valid CSCW Site (and Why it Generalizes)
 
-Households are a high-frequency coordination setting where roles are uneven, stakes are interpersonal, and breakdowns are common. This makes them a useful CSCW site for studying how coordination tools drift from shared visibility into enforcement cues, and how people interpret and repair trust after miscoordination. The intent is not to claim household universality, but to use domestic coordination as a controlled probe for broader small-group coordination problems where boundary integrity, identity safety, and emotional safety shape what “helpful” systems can safely do. Handoff Items are treated as High-Stakes stress surfaces to make these dynamics visible without introducing nudges or performance framing.
+Households are a high-frequency coordination setting where roles are uneven, stakes are interpersonal, and breakdowns are common. This makes them a useful CSCW site for studying how coordination tools drift from shared visibility into enforcement cues, and how people interpret and repair trust after miscoordination. The intent is not to claim household universality, but to use domestic coordination as an empirical probe site for broader small-group coordination problems where boundary integrity, identity safety, and emotional safety shape what “helpful” systems can safely do. Handoff Items are treated as High-Stakes stress surfaces to make these dynamics visible without introducing nudges or performance framing.
 
 ## Core Idea
 
@@ -26,11 +26,13 @@ KinCart investigates a constraint-first alternative: making shared intent visibl
    - Reversibility By Default
    - System-Owned Language (No Blame Or Policing)
 
-2) Domain language as a safety mechanism that prevents scorekeeping drift and bounds attribution pressure (for example, “Completed,” “Save Progress,” “Former Member”), treating labels as coordination cues rather than neutral interface text.
+2) Domain language as a safety mechanism that constrains scorekeeping interpretations and bounds attribution pressure (for example, “Completed,” “Save Progress,” “Former Member”), treating labels as coordination cues rather than neutral interface text.
 
 3) Failure-aware interaction contracts that make high-risk breakdowns legible for qualitative study, especially in High-Stakes Handoff Items (for example, wrong-Household actions; identity exposure after leaving or removal; irreversible-feeling completion).
 
 4) Decision discipline as method: explicit decision records and anti-drift gates that keep research materials conceptually consistent over time while intentionally avoiding implementation recipes.
+
+Across these contributions, the aim is to map how representation choices (language, visibility, reversibility, identity rendering, boundary cues) shape moral interpretations (pressure, blame risk, trust, and repair) under breakdown.
 
 ## What Exists Today (Research Materials)
 
