@@ -1,14 +1,14 @@
 # KinCart: Blueprint (Research Artefact)
 
-KinCart is a **non-commercial research artefact** for studying how shared intent is made visible in Households without drifting into enforcement, surveillance, or judgement. It takes the form of a mobile-first prototype, but it is not a task manager, accounting tool, or behavioural enforcement mechanism.
+KinCart is a **non-commercial research artefact** for studying **visibility-to-enforcement drift**: how shared intent is made visible in Households without drifting into enforcement, surveillance, or judgement. Households are the primary empirical site; other contexts are treated only as analogues. It takes the form of a mobile-first prototype, but it is not a task manager, accounting tool, or behavioural enforcement mechanism.
 
-The artefact is intentionally designed around explicit interaction invariants (system-owned language, reversibility by default, and boundary clarity) so that breakdown, repair, and interpretation can be studied as coordination work rather than optimised task execution. **Handoff Items** are treated as **High-Stakes** coordination surfaces to amplify blame risk and reveal breakdown and repair dynamics without introducing reminders or pressure.
+The artefact is intentionally designed around explicit interaction invariants (system-owned language, reversibility by default, and boundary clarity) so that breakdown, repair, and interpretation can be studied as coordination work rather than optimised task execution. **Handoff Items** are treated as **High-Stakes** coordination surfaces that surface breakdown and repair dynamics and constrain enforcement interpretations (blame amplification, surveillance interpretation, conflict evidence creation, identity exposure after exit) without introducing reminders or pressure. Prototype materials are research materials used as probes for interpretive inquiry, not findings.
 
 Activity is treated as an immutable, read-only record of shared intent and must not become a performance feed or a notification centre. Actor names may be shown for active Members, but Activity must not support per-person views, counts, sorting, grouping, filtering, or any performance-like interpretation. When membership ends, historical entries must immediately re-render the actor as “Former Member” by default.
 
 ## Research Governance (Binding Decisions Live Here)
 
-Research governance in KinCart functions as a methodological control mechanism, not an organisational or engineering process. Decisions are recorded to prevent interpretive drift (for example, accidental introduction of enforcement or judgement cues) and to preserve invariant integrity across iterations of the research artefact during study.
+Research governance in KinCart functions as a methodological control mechanism, not an organisational or engineering process. Decisions are recorded to block drift pathways (for example, accidental introduction of enforcement or judgement cues) and to preserve invariant integrity across iterations of the research artefact during study.
 
 This blueprint repository is governed by the KinCart governance repository:
 
