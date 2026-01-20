@@ -11,7 +11,7 @@ These notes support interpretive study of **visibility-to-enforcement drift** in
 - [Screen Responsibility Contracts](./screen-responsibility-contracts.md)
 - [Failure-Mode Tests](./failure-mode-tests.md)
 - [Research Contribution](./research-contribution.md)
-- [Analogue Contexts](./analogue-contexts.md)
+- [Analogue Contexts]([./analogue-contexts.md](https://github.com/pauladeduntan/blueprint/blob/main/supervisor-pack/analogue-contexts.md))
 - [Writing Sample Summary](./writing-sample-summary.md)
 
 ## Not Included in Public Repositories
