@@ -2,6 +2,8 @@
 
 This folder contains a de-identified template for tracking research activities (interpretive walkthrough sessions, vignette sessions, and diary check-ins).
 
+This log supports interpretive study of **visibility-to-enforcement drift** by recording what materials were used, not by recording outcomes or participant performance.
+
 ## Privacy Rules (Non-Negotiable)
 
 - Do not store names, emails, phone numbers, addresses, workplace or school names, or any directly identifying notes.
@@ -10,13 +12,13 @@ This folder contains a de-identified template for tracking research activities (
 - Avoid including unique incidents or verbatim quotes that could re-identify a participant.
 - Store any identifiable materials outside this public repository under appropriate access controls.
 
-## What this Log is for
+## What This Log is for
 
 - Traceability: when a session happened, what artefact version was used, and what research prompts or materials were used.
 - Research rigor: a minimal, de-identified record suitable for supervisor review and methodological transparency.
 - Interpretive analysis support: a guide to what was discussed (including breakdown and repair in High-Stakes Handoff Item scenarios) without scoring, ranking, or evaluating participants.
 
-## What this Log is not
+## What This Log is not
 
 - A growth dashboard, retention tracker, or commercialization metric sheet.
 - A performance record about participants or household dynamics.
