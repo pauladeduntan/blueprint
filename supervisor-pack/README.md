@@ -1,16 +1,16 @@
 # Supervisor Pack: KinCart Research Artefact
 
-## What This Is
+## What This is
 
-KinCart is a non-commercial HCI and CSCW research artefact used to study how household coordination can reduce mental load while preserving emotional safety.
+KinCart is a non-commercial HCI and CSCW research artefact used to study how household coordination can make visibility safer, treating “Making every day lighter, together” as a checksum rather than a reported outcome.
 
-It is intentionally not a task manager and refuses enforcement mechanics such as reminders, nudges, scoring, and surveillance patterns. Activity is treated as a read-only record of shared intent and must not become a performance feed or notification centre.
+It is intentionally not a task manager and constrains enforcement interpretations by excluding reminders, nudges, scoring, and surveillance patterns. Activity is treated as a read-only record of shared intent and must not become a performance feed or notification centre.
 
 ## Core Research Problem
 
 Many coordination tools drift from shared visibility into enforcement through accountability cues and performance-like logs. In Households, this can increase pressure and conflict, especially when capacity is uneven or authority is informal.
 
-KinCart explores a constraint-first alternative: make shared intent visible while preventing judgement, monitoring, and policing dynamics.
+KinCart explores a constraint-first alternative: make shared intent visible while constraining **visibility-to-enforcement drift** (judgement, monitoring, and policing interpretations).
 
 ## Central Probe: Handoff Item (High-Stakes)
 
@@ -25,9 +25,9 @@ Handoff Item is not a feature add-on. It is a methodological stress surface.
 - Study Plan (1 Page): qualitative study outline and feasibility.
 - Prototype Evidence: a high-fidelity prototype and optional short walkthrough video (links in `links.md`).
 - Scenario Vignettes: discussion prompts designed to surface interpretation, breakdown, and repair.
-- Ethics And Risk Notes: how the artefact avoids coercion and reduces identity and conflict risk.
+- Ethics And Risk Notes: how the artefact avoids coercion and constrains identity exposure and conflict-amplification pathways.
 
-## What This Pack Is Not
+## What This Pack is not
 
 - Not evidence of outcomes, impact, or effectiveness.
 - Not a product plan or commercial pitch.
@@ -35,9 +35,9 @@ Handoff Item is not a feature add-on. It is a methodological stress surface.
 
 ## Method Posture
 
-This work uses qualitative, interpretive CSCW methods. Prototypes are probes to elicit interpretation, not evaluation targets. The goal is to understand how people read cues, what breakdowns feel risky, and what repair looks like.
+This work uses qualitative, interpretive CSCW methods. Prototypes are probes to elicit interpretation, not evaluation targets. The goal is to understand how people read cues, what breakdowns feel risky, and what repair looks like. The contribution is framed as mapping how representation choices shape moral interpretations (pressure, blame risk, trust, and repair), not as an efficacy claim.
 
-## How To Use This Pack
+## How to Use This Pack
 
 1) Read Research Contribution for the problem framing and probe logic.
 2) Read Research Statement for fit and positioning.
