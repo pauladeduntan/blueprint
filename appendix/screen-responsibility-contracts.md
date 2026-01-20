@@ -1,8 +1,10 @@
 # Screen Responsibility Contracts (Appendix)
 
+These contracts constrain **visibility-to-enforcement drift** by specifying what each screen may surface without introducing reminders, scoring, urgency cues, or enforcement interpretations. They are research materials used as probes for interpretive inquiry, not findings.
+
 ## Entry
 
-- Owns: “Continue As Guest” as primary entry; optional sign-in routing framed as “Save Progress”.
+- Owns: “Continue as Guest” as primary entry; optional sign-in routing framed as “Save Progress”.
 - Must not: force sign-in or imply access control as a reward.
 
 ## Household Gate
@@ -30,7 +32,7 @@
 
 ## Activity Context (Read-only)
 
-- Owns: a read-only context view for Activity entries, used to reduce ambiguity without increasing blame, urgency, or enforcement framing.
+- Owns: a read-only context view for Activity entries, used to bound ambiguity without increasing blame, urgency, or enforcement framing.
 - Must not: introduce edit actions, escalation cues, policing language, or inline controls.
 - Must preserve: optional details are read-only and bounded to what is necessary for comprehension.
 
@@ -43,4 +45,5 @@
 ## Activity Context (System-owned Household Events)
 
 - Owns: minimal clarifying detail for system-owned events (for example, Household Name Updated, Household Members Updated, A Former Member No Longer Has Access) to avoid confusion.
+- Note: these details may be surfaced via a system-owned feed line or via the read-only context view depending on the current prototype flow.
 - Must not: show “changed by” attribution, expose removed identities by default, or introduce judgement framing.
