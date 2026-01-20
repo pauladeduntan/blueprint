@@ -2,6 +2,8 @@
 
 Public-safe supporting notes for the KinCart research artefact.
 
+These notes support interpretive study of **visibility-to-enforcement drift** in household coordination. They are research materials used as probes, not findings.
+
 ## Appendices
 
 - [Governance Links](./governance-links.md)
