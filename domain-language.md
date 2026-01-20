@@ -1,5 +1,7 @@
 # Domain Language (Locked)
 
+This language supports interpretive study of **visibility-to-enforcement drift** by constraining how coordination is described and interpreted.
+
 ## Core Nouns
 
 - Household: a shared context boundary.
@@ -10,7 +12,7 @@
 
 ## Additional Nouns
 
-- Handoff Item: a High-Stakes coordination Item used as a stress surface to study breakdown, repair, trust, and emotional safety.
+- Handoff Item: a High-Stakes coordination Item used as a stress surface to study breakdown, repair, trust, and emotional safety; High-Stakes does not justify urgency, reminders, or enforcement cues.
 - Former Member: a person who previously belonged to a Household but no longer has access.
 - Save Progress: neutral framing for optional sign-in (not a conversion push).
 
