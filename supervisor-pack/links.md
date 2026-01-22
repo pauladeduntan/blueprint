@@ -1,9 +1,11 @@
 # Links
 
+These links point to research materials supporting interpretive study of **visibility-to-enforcement drift** in household coordination. They are probes and supporting artefacts, not findings.
+
 ## Prototype Evidence
 
 - [Figma Prototype (High-Fidelity)](https://www.figma.com/proto/0BKLn5A6LTL217Wn1Vtk1u/KinCart-Hi-fi-Mock-up-Screens?node-id=484-6085&t=1YxIJJ2rhqY7Rphx-1)
-- Walkthrough Video (Unlisted, 2 To 3 Minutes): Shared On Request
+- Walkthrough Video (Unlisted, 2 To 3 Minutes): Available On Request
 
 ## Public Research Artefact Repositories
 
@@ -12,7 +14,7 @@
 
 ## Key Blueprint Artefacts
 
-- [Artefact Definition](https://github.com/pauladeduntan/blueprint/blob/main/product-definition.md)
+- [Artefact Definition](https://github.com/pauladeduntan/blueprint/blob/main/artefact-definition.md)
 - [Domain Language (Locked)](https://github.com/pauladeduntan/blueprint/blob/main/domain-language.md)
 - [Invariants (Locked)](https://github.com/pauladeduntan/blueprint/blob/main/invariants.md)
 - [System Flows](https://github.com/pauladeduntan/blueprint/blob/main/system-flows.md)
