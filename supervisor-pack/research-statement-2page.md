@@ -2,19 +2,21 @@
 
 ## 1. Research Problem and Motivation
 
-In shared Households, coordination tools can reduce ambiguity but often increase emotional load by introducing accountability cues such as nudges, reminders, “overdue” states, and performance-like feeds. These cues can shift coordination from shared intent toward perceived management, increasing friction and risking trust breakdown, especially where authority is informal and negotiated rather than formal.
+In shared Households, coordination tools often surface **visibility-to-enforcement drift**, where attempts at shared visibility are interpreted as management through cues such as nudges, reminders, “overdue” states, and performance-like feeds. These cues can shift coordination from shared intent toward perceived management, increasing friction and risking trust breakdown, especially where authority is informal and negotiated rather than formal.
+
+“Reducing mental load” is treated here as a checksum that guides design choices, not a reported outcome.
 
 My research examines this drift as an interaction and interpretation problem in HCI/CSCW: how seemingly small interface cues become social signals of obligation, blame, and surveillance. I focus on moments of breakdown and repair, where mistakes are costly and coordination artefacts can either support relational recovery or amplify conflict.
 
 These risks are amplified in High-Stakes coordination moments, such as Handoff Items involving appointments, care, or time-bound coordination. In such cases, visibility can quickly become blame if not carefully constrained. High-Stakes does not justify enforcement or urgency mechanics. It increases the need for emotionally safe visibility.
 
-## 2. Why Households are a Valid CSCW Site (and Why It Generalizes)
+## 2. Why Households are a Valid CSCW Site (and Why it Generalizes)
 
-Households are a high-frequency coordination setting where roles are uneven, stakes are interpersonal, and breakdowns are common. This makes them a useful CSCW site for studying how coordination systems drift from shared visibility into enforcement cues, and how people interpret and repair trust after miscoordination. The intent is not to claim household universality, but to use domestic coordination as a controlled probe for broader small-group coordination problems where boundary integrity, identity safety, and emotional safety shape what “helpful” systems can safely do.
+Households are a high-frequency coordination setting where roles are uneven, stakes are interpersonal, and breakdowns are common. This makes them a useful CSCW site for studying how coordination systems drift from shared visibility into enforcement cues, and how people interpret and repair trust after miscoordination. The intent is not to claim household universality, but to use domestic coordination as an empirical probe site for broader small-group coordination problems, with other contexts treated only as analogues, where boundary integrity, identity safety, and emotional safety shape what “helpful” systems can safely do.
 
 ## 3. Conceptual Contribution to HCI/CSCW
 
-This work contributes a constraint-first account of Household coordination systems that preserve emotional safety while making shared intent visible. The contribution is not a new feature set, but a research-grounded vocabulary of interaction contracts and guardrails that prevent enforcement drift.
+This work contributes a constraint-first account of Household coordination systems that preserve emotional safety while making shared intent visible. The contribution is not a new feature set, but a research-grounded vocabulary of interaction contracts and guardrails that constrain drift pathways away from shared visibility and toward enforcement interpretations.
 
 Key conceptual contributions include:
 
@@ -23,6 +25,8 @@ Key conceptual contributions include:
 - Reversibility As Repair Support: interaction contracts that prevent “I ruined it” moments and make recovery socially easier.
 - Boundary Integrity And Exit Safety As Trust Contracts: Household boundaries and membership transitions treated as safety-critical, not merely state changes, including dynamic identity redaction to “Former Member” after membership ends.
 - High-Stakes Handoff Items As A Methodological Stress Surface: deliberate scenarios used to surface interpretation risk, breakdown, and repair dynamics under heightened relational stakes, with detail revealed on demand in a read-only context view rather than amplified in the Activity feed.
+
+Across these contributions, the aim is to map how representation choices (language, visibility, reversibility, identity rendering, boundary cues) shape moral interpretations (pressure, blame risk, trust, and repair) under breakdown.
 
 ## 4. Empirical Strategy and Methodological Orientation
 
@@ -38,7 +42,7 @@ What the system explicitly refuses to do (no reminders, no nudges, no contributi
 
 Analysis will use interpretive qualitative coding (for example, reflexive thematic analysis) oriented around breakdown moments, repair strategies, and perceived judgement pressure.
 
-## 5. Research Trajectory and Fit With HCI/CSCW
+## 5. Research Trajectory and Fit with HCI/CSCW
 
 Household coordination provides a grounded site for studying shared intent, negotiated responsibility, and emotionally safe visibility. The work generalises to broader CSCW concerns about shared logs, shared access, identity display, boundary integrity, and how coordination artefacts drift into surveillance or management cues.
 
