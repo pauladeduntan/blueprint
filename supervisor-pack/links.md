@@ -12,7 +12,7 @@
 
 ## Key Blueprint Artefacts
 
-- [Product Definition](https://github.com/pauladeduntan/blueprint/blob/main/product-definition.md)
+- [Artefact Definition](https://github.com/pauladeduntan/blueprint/blob/main/product-definition.md)
 - [Domain Language (Locked)](https://github.com/pauladeduntan/blueprint/blob/main/domain-language.md)
 - [Invariants (Locked)](https://github.com/pauladeduntan/blueprint/blob/main/invariants.md)
 - [System Flows](https://github.com/pauladeduntan/blueprint/blob/main/system-flows.md)
