@@ -2,7 +2,7 @@
 
 ## Purpose
 
-These vignettes are prompts for qualitative, interpretive discussion. They are designed to surface how participants interpret system cues, where breakdown occurs, and what repair feels safe.
+These vignettes are prompts for qualitative, interpretive discussion. They are designed to surface **visibility-to-enforcement drift**: how system cues become moral signals (pressure, blame risk, surveillance interpretation), including conflict evidence creation, especially under breakdown and repair.
 
 They are not benchmarks, tests, or performance evaluations.
 
@@ -25,7 +25,7 @@ Questions:
 - What do you think happened?
 - What would you feel in this moment?
 - What would you need to recover safely without blame?
-- What would you want the system to make visible to reduce future wrong-Household risk?
+- What would you want the system to make visible to limit future wrong-Household risk?
 
 ## Vignette 2: Irreversible Completion Fear
 
