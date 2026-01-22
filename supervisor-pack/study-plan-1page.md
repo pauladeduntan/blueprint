@@ -2,12 +2,16 @@
 
 ## Purpose
 
-This study examines how Household coordination systems can make shared intent visible without introducing enforcement, surveillance, or emotional pressure. KinCart is used as a **research probe** to surface how people interpret coordination cues during breakdown and repair, particularly in **High-Stakes Handoff** situations where mistakes are socially costly, rather than to optimise task completion.
+This study examines how Household coordination systems can make shared intent visible without introducing enforcement, surveillance, or emotional pressure. KinCart is used as a **research probe** to surface how people interpret coordination cues during breakdown and repair, particularly in **High-Stakes Handoff** situations where mistakes are socially costly, rather than to optimise task execution.
+
+This work is anchored to **visibility-to-enforcement drift**: how shared-access visibility systems are interpreted as obligation, judgement, or surveillance-feel through seemingly small representation cues.
+
+“Making every day lighter, together” is treated as a checksum and design aim, not a reported outcome.
 
 ## Research Questions (Illustrative)
 
 - How do coordination cues (language, visibility, reversibility) shape perceived pressure, trust, and safety in **High-Stakes Household Handoffs** (for example, appointments, care-adjacent tasks)?
-- How does the presence of a Handoff Item amplify breakdown and blame risk, and which constraints prevent visibility from drifting into enforcement under those conditions?
+- How does the presence of a Handoff Item amplify breakdown and blame risk, and which constraints constrain drift pathways away from emotionally safe visibility under those conditions?
 - How do system-owned representations of responsibility and identity affect interpretation and repair when Handoff coordination fails or when membership changes occur?
 
 ## Participants
