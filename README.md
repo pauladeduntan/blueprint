@@ -29,10 +29,12 @@ Binding decisions and drift-prevention gates are recorded in the governance repo
 - [Domain Language](./domain-language.md)
 - [Invariants](./invariants.md)
 - [System Flows (Current Research Prototype)](./system-flows.md)
+- - [Risk Register (Research Process + Participant Risks)](./appendix/riskregister.md)
+- [Failure-Mode Tests (Public-Safe)](./appendix/failuremode.md)
 
 This repository contains frozen research artefact constraints (Domain Language, Invariants, and narrative System Flows). When something here becomes committed truth, it should be backed by a governance decision record.
 
-## Status (Research-Only)
+## Status (Research-only)
 
 KinCart is a **non-commercial research artefact**. This repository documents research framing, design invariants, and prototype materials. It is not a product launch, a service offering, or a commercial operation.
 
@@ -42,7 +44,7 @@ Any use of KinCart beyond its role as a research artefact would require separate
 
 Start here: [START_HERE.md](./START_HERE.md)
 
-## What This Repository Contains
+## What this Repository Contains
 
 - A frozen research blueprint: Domain Language, Invariants, and narrative System Flows.
 - Reference appendices used to keep the prototype coherent and failure-aware.
