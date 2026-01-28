@@ -5,24 +5,27 @@ KinCart is a non-commercial research artefact used to study **visibility-to-enfo
 ## Fast Path
 
 1) **Research Artefact (Used in Study)**
-   - Figma Prototype (Used In Interpretive Walkthrough Interviews): [Figma Prototype](https://www.figma.com/proto/0BKLn5A6LTL217Wn1Vtk1u/KinCart-Hi-fi-Mock-up-Screens?node-id=484-6085&t=1YxIJJ2rhqY7Rphx-1)
-   - Short Walkthrough Video (2–3 Min, Unlisted): Shared On Request
+   - Figma Prototype (Used in Interpretive Walkthrough Interviews): [Figma Prototype](https://www.figma.com/proto/0BKLn5A6LTL217Wn1Vtk1u/KinCart-Hi-fi-Mock-up-Screens?node-id=484-6085&t=1YxIJJ2rhqY7Rphx-1)
+   - Short Walkthrough Video (2 to 3 min, unlisted): shared on request for supervisor and reviewer fit assessment
 
-2) **Research Contribution**
-   - See: `appendix/research-contribution.md`
+2) **Research Contribution and Safety Notes**
+   - Research Contribution (One Page): `appendix/research-contribution.md`
+   - Risk Register (Research Process + Participant/Data Risks): `appendix/riskregister.md`
+   - Failure-mode Tests (Public-safe, System-level): `appendix/failuremode.md`
 
-3) **Core Constraints (What Must Remain True)**
+3) **Core Constraints (What must Remain True)**
    - Domain Language (Locked): `domain-language.md`
    - Invariants (Locked): `invariants.md`
 
 4) **Interaction Narrative (What is being Studied)**
-   - `system-flows.md` describes user-facing behavior and failure modes. It includes **Handoff Item** as a **High-Stakes** coordination stress surface used to study breakdown, repair, trust, and emotional safety.
-   - Activity is a calm, read-only record that must not become a performance feed, and identity display is system-owned with dynamic redaction to “Former Member” after membership ends.
+   - `system-flows.md` describes user-facing behavior as an interaction narrative for interpretive inquiry.
+   - Handoff Item is treated as a high-stakes coordination stress surface used to study breakdown, repair, trust, and emotional safety.
+   - Activity is a calm, read-only record that must not become a performance feed. Identity display is system-owned with dynamic redaction to “Former Member” after membership ends.
 
-## What This Repo Contains
+## What this Repo Contains
 
 - Locked domain language and invariants that constrain design choices.
-- Narrative system flows describing user-facing behavior and failure modes.
+- Narrative system flows describing user-facing behavior.
 - A small appendix of research notes curated for public review (no implementation recipes).
 
 ## What is Intentionally not Published
