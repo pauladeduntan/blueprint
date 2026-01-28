@@ -1,6 +1,6 @@
 # Failure-Mode Tests (Public-Safe)
 
-These are failure scenarios used to study **visibility-to-enforcement drift** and constrain enforcement interpretations in the research artefact (and any later instantiation derived from it). This is not a test harness or implementation guide.
+These are failure scenarios used to study **visibility-to-enforcement drift** and constrain enforcement interpretations in the research artefact (and any later instantiation derived from it). This is not a test harness or implementation guide. See appendix/riskregister.md for research process and participant/data risks.
 
 ## FM1: Wrong-Household Action
 
